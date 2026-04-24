@@ -1,0 +1,53 @@
+# OS metadata
+.DS_Store
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local environment
+.env
+
+# Local notes and agent-specific files not intended for the public repo
+AGENTS.md
+CLAUDE.md
+Contexts/
+Reports/
+Instruction_regularized_queryable_LoRA/
+magic.mgc
+huggingface/
+
+# Pipeline outputs
+SavedResults/
+Tmp/
+Logs/*
+!Logs/.gitkeep
+
+# Large generated benchmark/media artifacts
+SavedData/AudioFiles/
+SavedData/Images/
+SavedData/TextFiles/
+SavedData/HDSImages/
+SavedData/HDSHardImages/
+SavedData/HDSv2Images/
+SavedData/TrapsImages/
+SavedData/Trapsv2Images/
+SavedData/LoRATraining/
+
+# Paper build and internal review artifacts
+PaperTexFolder/*.aux
+PaperTexFolder/*.bbl
+PaperTexFolder/*.blg
+PaperTexFolder/*.fdb_latexmk
+PaperTexFolder/*.fls
+PaperTexFolder/*.log
+PaperTexFolder/*.out
+PaperTexFolder/*.synctex.gz
+PaperTexFolder/ms.pdf
+PaperTexFolder/Contexts/
+PaperTexFolder/Reviews/
+PaperTexFolder/NOTES.md
+PaperTexFolder/review_response.md
+PaperTexFolder/custom_old.bib

@@ -1,0 +1,36 @@
+# Recreate from scratch:
+#   conda env remove -n tm_env -y || true
+#   conda env create -f environment.yml
+#
+# Refresh to the newest allowed packages in-place:
+#   conda env update -n tm_env --prune -f environment.yml
+#   conda run -n tm_env python -m pip install --upgrade -r requirements-tm_env.txt
+#
+# Use `conda activate tm_env` before running fingerprinting with the local
+# prototype-embedding detector. The system/base interpreter may not have the
+# conda-managed torch stack required by `Scripts/core/FingerprintParsers.py`.
+#
+# Keep the PyTorch stack conda-managed on macOS so numpy/openblas and torch
+# share one OpenMP runtime. Installing torch via pip here can trigger duplicate
+# `libomp.dylib` loads in tm_env.
+#
+# External tools still needed for the full pipeline:
+#   - GNU parallel
+#   - pdflatex / TeX Live or MacTeX
+#   - poppler utilities if you do not want the conda copy below
+
+name: tm_env
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip>=24
+  - numpy
+  - matplotlib
+  - pillow
+  - poppler
+  - pytorch
+  - torchvision
+  - pip:
+      - -r requirements-tm_env.txt

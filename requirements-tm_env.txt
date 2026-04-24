@@ -1,0 +1,19 @@
+# Keep these mostly unpinned so a reinstall/upgrade picks up current releases.
+# The one lower bound that matters right now is Tinker itself, since tm_env had
+# been stuck on an unsupported 0.7.0 build.
+#
+# The PyTorch family is intentionally conda-managed in environment.yml on macOS
+# to avoid mixing pip torch's bundled OpenMP runtime with conda numpy/openblas.
+# Tinker 0.18.0 currently imports orjson at runtime without declaring it.
+
+tinker>=0.16.1
+orjson
+transformers>=4.57.6,<5
+huggingface_hub
+pdf2image
+gTTS
+python-dotenv
+safetensors
+sentencepiece
+mypy
+tinker-cookbook

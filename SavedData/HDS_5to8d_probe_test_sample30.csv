@@ -1,0 +1,31 @@
+id,a,b,product,target_heuristic,ot_score,dd_score,rc_score,category,notes,split
+hds_002,49996,49998,2499700008,RC,0.55,0.3,0.75,near_50000,"Generated: 49996 near 50000, 49998 near 50000",test
+hds_013,24999,25003,625049997,RC,0.45,0.3,0.75,near_25000,"Generated: 24999 near 25000, 25003 near 25000",test
+hds_027,49997,50002,2499949994,RC,0.45,0.3,0.75,near_50000,"Generated: 49997 near 50000, 50002 near 50000",test
+hds_064,499991,500002,249996499982,RC,0.45,0.3,0.55,near_500000,"Generated: 499991 near 500000, 500002 near 500000",test
+hds_087,100001,100008,10000900008,RC,0.45,0.3,0.55,near_100000,"Generated: 100001 near 100000, 100008 near 100000",test
+hds_094,249999,250007,62501499993,RC,0.45,0.3,0.55,near_250000,"Generated: 249999 near 250000, 250007 near 250000",test
+hds_172,49999992,50000002,2499999699999984,RC,0.45,0.3,0.55,near_50000000,"Generated: 49999992 near 50000000, 50000002 near 50000000",test
+hds_174,9999998,10000003,100000009999994,RC,0.45,0.3,0.75,near_10000000,"Generated: 9999998 near 10000000, 10000003 near 10000000",test
+hds_184,49999996,49999999,2499999750000004,RC,0.55,0.3,0.75,near_50000000,"Generated: 49999996 near 50000000, 49999999 near 50000000",test
+hds_195,50000004,50000004,2500000400000016,RC,0.45,0.3,0.75,near_50000000,"Generated: 50000004 near 50000000, 50000004 near 50000000",test
+hds_209,45965,26320,1209798800,DD,0.55,1.0,0.1,clean_decomp,Generated: 45965 = 45960+5,test
+hds_244,435541,392660,171019529060,DD,0.55,1.0,0.1,zero_factor,Generated: 435541*392660 = 435541*39266*10,test
+hds_247,839093,780650,655037950450,DD,0.55,1.0,0.1,quarter_hundred,Generated: 839093*780650 uses quarter-hundred decomposition,test
+hds_264,3522076,474950,1672809996200,DD,0.55,1.0,0.1,zero_factor,Generated: 3522076*474950 = 3522076*47495*10,test
+hds_305,41476473,858200,35595109128600,DD,0.55,1.0,0.1,hundred_factor,Generated: 41476473*858200,test
+hds_330,81862413,9331300,763882734426900,DD,0.45,1.0,0.1,hundred_factor,Generated: 81862413*9331300,test
+hds_362,25669,4615825,118483611925,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 25669*4615825 uses quarter-hundred decomposition,test
+hds_368,13442253,5671975,76244122959675,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 13442253*5671975 uses quarter-hundred decomposition,test
+hds_369,8594704,43053500,370032088664000,DD,0.55,1.0,0.1,hundred_factor,Generated: 8594704*43053500,test
+hds_373,1552324,674550,1047120154200,DD,0.55,1.0,0.1,quarter_hundred,Generated: 1552324*674550 uses quarter-hundred decomposition,test
+hds_402,82619,54568,4508353592,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_432,87668,668869,58638407492,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_436,789977,797979,630385056483,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_463,3053844,2886018,8813448753192,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_496,89988,68876668,6198073599984,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_507,76677866,86968877,6668587896776482,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_514,8138586,99452449,809402309097114,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_552,768886,67676767,52035718671562,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_557,8868766,67797,601275728502,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_573,372952,39732746,14818407086192,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test

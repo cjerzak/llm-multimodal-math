@@ -1,0 +1,31 @@
+id,a,b,product,trap_type,target_heuristic,expected_error_type,notes,digit_total,nonzero_total,complexity_c
+trap_000,97,98,9506,carry_bomb,OT,off_by_power_of_10,Both large single digits,4,4,16
+trap_001,89,79,7031,carry_bomb,OT,off_by_power_of_10,"8×7+carries, 9×9+carries",4,4,16
+trap_002,88,99,8712,carry_bomb,OT,off_by_power_of_10,8×9=72 repeated,4,4,16
+trap_003,77,88,6776,carry_bomb,OT,off_by_power_of_10,7×8=56 repeated,4,4,16
+trap_004,79,86,6794,carry_bomb,OT,off_by_power_of_10,Complex carry chain,4,4,16
+trap_005,98,89,8722,carry_bomb,OT,off_by_power_of_10,Dense carries across digits,4,4,16
+trap_006,989,97,95933,carry_bomb,OT,off_by_power_of_10,Three-digit carry cascade,5,5,25
+trap_007,879,96,84384,carry_bomb,OT,off_by_power_of_10,Carry-heavy three-digit mix,5,5,25
+trap_008,54,86,4644,missing_term,DD,off_by_partial_product,5×8 and 4×6 both give 40-ish,4,4,16
+trap_009,76,34,2584,missing_term,DD,off_by_partial_product,"7×3=21, 6×4=24 similar",4,4,16
+trap_010,45,67,3015,missing_term,DD,off_by_partial_product,"4×6=24, 5×7=35",4,4,16
+trap_011,83,56,4648,missing_term,DD,off_by_partial_product,(80+3)×(50+6),4,4,16
+trap_012,72,48,3456,missing_term,DD,off_by_partial_product,"7×4=28, 2×8=16",4,4,16
+trap_013,94,37,3478,missing_term,DD,off_by_partial_product,"9×3=27, 4×7=28 similar",4,4,16
+trap_014,86,59,5074,missing_term,DD,off_by_partial_product,8×9 and 6×5 both mid-range,4,4,16
+trap_015,93,47,4371,missing_term,DD,off_by_partial_product,9×7 and 3×4 similar,4,4,16
+trap_016,43,32,1376,anti_round,RC,inefficient_or_wrong_base,Neither near any base,4,4,16
+trap_017,56,74,4144,anti_round,RC,inefficient_or_wrong_base,"Mid-range, no rounding advantage",4,4,16
+trap_018,38,67,2546,anti_round,RC,inefficient_or_wrong_base,No clean compensation,4,4,16
+trap_019,64,53,3392,anti_round,RC,inefficient_or_wrong_base,Not near 50 or 100,4,4,16
+trap_020,27,84,2268,anti_round,RC,inefficient_or_wrong_base,Awkward for rounding,4,4,16
+trap_021,73,46,3358,anti_round,RC,inefficient_or_wrong_base,No convenient base,4,4,16
+trap_022,35,62,2170,anti_round,RC,inefficient_or_wrong_base,35 near 40 but not clean,4,4,16
+trap_023,58,41,2378,anti_round,RC,inefficient_or_wrong_base,Both awkward,4,4,16
+trap_024,49,52,2548,sign_trap,RC,wrong_compensation_sign,"49 below 50, 52 above - different signs",4,4,16
+trap_025,99,103,10197,sign_trap,RC,wrong_compensation_sign,Different distances from 100,5,4,20
+trap_026,102,97,9894,sign_trap,RC,wrong_compensation_sign,Asymmetric around 100,5,4,20
+trap_027,198,205,40590,sign_trap,RC,wrong_compensation_sign,Different offsets from 200,6,5,30
+trap_028,107,92,9844,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base,5,4,20
+trap_029,102,95,9690,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base,5,4,20

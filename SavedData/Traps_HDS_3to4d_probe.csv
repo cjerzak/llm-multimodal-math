@@ -1,0 +1,31 @@
+id,a,b,product,trap_type,target_heuristic,expected_error_type,notes
+trap_000,197,203,39991,sign_trap,RC,wrong_compensation_sign,Asymmetric around 200
+trap_001,198,205,40590,sign_trap,RC,wrong_compensation_sign,Different offsets from 200
+trap_002,788,778,613064,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits
+trap_003,789,979,772431,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits
+trap_004,977,987,964299,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits
+trap_005,7778,889,6914642,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits
+trap_006,7788,899,7001412,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits
+trap_007,9999,9899,98980101,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits
+trap_008,787,9778,7695286,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits
+trap_009,7888,798,6294624,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits
+trap_010,6214,5929,36842806,missing_term,DD,off_by_partial_product,Generated: multi-term expansion
+trap_011,103,6935,714305,missing_term,DD,off_by_partial_product,Generated: multi-term expansion
+trap_012,4284,437,1872108,missing_term,DD,off_by_partial_product,Generated: multi-term expansion
+trap_013,742,631,468202,missing_term,DD,off_by_partial_product,Generated: multi-term expansion
+trap_014,1453,252,366156,missing_term,DD,off_by_partial_product,Generated: multi-term expansion
+trap_015,5303,8857,46968671,missing_term,DD,off_by_partial_product,Generated: multi-term expansion
+trap_016,903,2032,1834896,missing_term,DD,off_by_partial_product,Generated: multi-term expansion
+trap_017,3167,501,1586667,missing_term,DD,off_by_partial_product,Generated: multi-term expansion
+trap_018,7797,339,2643183,anti_round,RC,inefficient_or_wrong_base,Generated: far from base
+trap_019,9524,9826,93582824,anti_round,RC,inefficient_or_wrong_base,Generated: far from base
+trap_020,1546,8652,13375992,anti_round,RC,inefficient_or_wrong_base,Generated: far from base
+trap_021,1929,4816,9290064,anti_round,RC,inefficient_or_wrong_base,Generated: far from base
+trap_022,479,5622,2692938,anti_round,RC,inefficient_or_wrong_base,Generated: far from base
+trap_023,9622,7242,69682524,anti_round,RC,inefficient_or_wrong_base,Generated: far from base
+trap_024,7624,8584,65444416,anti_round,RC,inefficient_or_wrong_base,Generated: far from base
+trap_025,729,894,651726,anti_round,RC,inefficient_or_wrong_base,Generated: far from base
+trap_026,5007,4990,24984930,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base
+trap_027,5005,4995,24999975,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base
+trap_028,5009,4997,25029973,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base
+trap_029,2510,2494,6259940,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base

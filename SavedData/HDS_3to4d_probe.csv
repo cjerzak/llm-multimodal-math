@@ -1,0 +1,1001 @@
+id,a,b,product,target_heuristic,ot_score,dd_score,rc_score,category,notes,split
+hds_000,199,201,39999,RC,0.8,0.3,0.1,near_200_symmetric,"199×201 = 200²-1 | curated_override expected RC, scored OT",train
+hds_001,198,202,39996,RC,0.8,0.3,0.1,near_200_2off,"Both 2 away from 200 | curated_override expected RC, scored OT",train
+hds_002,501,509,255009,RC,0.45,0.3,0.55,near_500,"Generated: 501 near 500, 509 near 500",test
+hds_003,249,251,62499,RC,0.45,0.3,0.9,near_250,"Generated: 249 near 250, 251 near 250",train
+hds_004,496,499,247504,RC,0.55,0.3,0.75,near_500,"Generated: 496 near 500, 499 near 500",train
+hds_005,498,498,248004,RC,0.55,0.3,0.9,near_500,"Generated: 498 near 500, 498 near 500",train
+hds_006,244,252,61488,RC,0.45,0.3,0.55,near_250,"Generated: 244 near 250, 252 near 250",train
+hds_007,498,502,249996,RC,0.55,0.3,0.9,near_500,"Generated: 498 near 500, 502 near 500",test
+hds_008,496,497,246512,RC,0.55,0.3,0.75,near_500,"Generated: 496 near 500, 497 near 500",train
+hds_009,246,252,61992,RC,0.55,0.3,0.75,near_250,"Generated: 246 near 250, 252 near 250",train
+hds_010,499,504,251496,RC,0.55,0.3,0.75,near_500,"Generated: 499 near 500, 504 near 500",test
+hds_011,241,252,60732,RC,0.45,0.3,0.55,near_250,"Generated: 241 near 250, 252 near 250",test
+hds_012,494,501,247494,RC,0.45,0.3,0.55,near_500,"Generated: 494 near 500, 501 near 500",val
+hds_013,249,249,62001,RC,0.55,0.3,0.9,near_250,"Generated: 249 near 250, 249 near 250",test
+hds_014,496,504,249984,RC,0.55,0.3,0.75,near_500,"Generated: 496 near 500, 504 near 500",train
+hds_015,498,503,250494,RC,0.55,0.3,0.75,near_500,"Generated: 498 near 500, 503 near 500",train
+hds_016,502,508,255016,RC,0.45,0.3,0.55,near_500,"Generated: 502 near 500, 508 near 500",train
+hds_017,497,501,248997,RC,0.45,0.3,0.75,near_500,"Generated: 497 near 500, 501 near 500",val
+hds_018,242,248,60016,RC,0.45,0.3,0.55,near_250,"Generated: 242 near 250, 248 near 250",train
+hds_019,242,252,60984,RC,0.45,0.3,0.55,near_250,"Generated: 242 near 250, 252 near 250",train
+hds_020,247,251,61997,RC,0.45,0.3,0.75,near_250,"Generated: 247 near 250, 251 near 250",train
+hds_021,503,503,253009,RC,0.45,0.3,0.75,near_500,"Generated: 503 near 500, 503 near 500",train
+hds_022,249,252,62748,RC,0.55,0.3,0.9,near_250,"Generated: 249 near 250, 252 near 250",train
+hds_023,242,251,60742,RC,0.45,0.3,0.55,near_250,"Generated: 242 near 250, 251 near 250",train
+hds_024,253,253,64009,RC,0.55,0.3,0.75,near_250,"Generated: 253 near 250, 253 near 250",train
+hds_025,496,498,247008,RC,0.55,0.3,0.75,near_500,"Generated: 496 near 500, 498 near 500",test
+hds_026,498,499,248502,RC,0.55,0.3,0.9,near_500,"Generated: 498 near 500, 499 near 500",train
+hds_027,998,999,997002,RC,0.55,0.3,0.9,near_1000,"Generated: 998 near 1000, 999 near 1000",test
+hds_028,252,254,64008,RC,0.55,0.3,0.75,near_250,"Generated: 252 near 250, 254 near 250",train
+hds_029,997,998,995006,RC,0.55,0.3,0.75,near_1000,"Generated: 997 near 1000, 998 near 1000",test
+hds_030,248,248,61504,RC,0.55,0.3,0.9,near_250,"Generated: 248 near 250, 248 near 250",train
+hds_031,496,502,248992,RC,0.55,0.3,0.75,near_500,"Generated: 496 near 500, 502 near 500",train
+hds_032,248,253,62744,RC,0.55,0.3,0.75,near_250,"Generated: 248 near 250, 253 near 250",val
+hds_033,496,501,248496,RC,0.45,0.3,0.75,near_500,"Generated: 496 near 500, 501 near 500",train
+hds_034,241,251,60491,RC,0.45,0.3,0.55,near_250,"Generated: 241 near 250, 251 near 250",train
+hds_035,241,249,60009,RC,0.45,0.3,0.55,near_250,"Generated: 241 near 250, 249 near 250",val
+hds_036,243,252,61236,RC,0.45,0.3,0.55,near_250,"Generated: 243 near 250, 252 near 250",train
+hds_037,246,246,60516,RC,0.55,0.3,0.75,near_250,"Generated: 246 near 250, 246 near 250",train
+hds_038,998,998,996004,RC,0.55,0.3,0.9,near_1000,"Generated: 998 near 1000, 998 near 1000",val
+hds_039,246,254,62484,RC,0.55,0.3,0.75,near_250,"Generated: 246 near 250, 254 near 250",train
+hds_040,501,502,251502,RC,0.45,0.3,0.9,near_500,"Generated: 501 near 500, 502 near 500",train
+hds_041,502,503,252506,RC,0.45,0.3,0.75,near_500,"Generated: 502 near 500, 503 near 500",train
+hds_042,247,248,61256,RC,0.55,0.3,0.75,near_250,"Generated: 247 near 250, 248 near 250",val
+hds_043,499,503,250997,RC,0.55,0.3,0.75,near_500,"Generated: 499 near 500, 503 near 500",val
+hds_044,501,508,254508,RC,0.45,0.3,0.55,near_500,"Generated: 501 near 500, 508 near 500",train
+hds_045,997,999,996003,RC,0.55,0.3,0.75,near_1000,"Generated: 997 near 1000, 999 near 1000",train
+hds_046,501,506,253506,RC,0.45,0.3,0.55,near_500,"Generated: 501 near 500, 506 near 500",val
+hds_047,246,253,62238,RC,0.55,0.3,0.75,near_250,"Generated: 246 near 250, 253 near 250",train
+hds_048,996,998,994008,RC,0.55,0.3,0.75,near_1000,"Generated: 996 near 1000, 998 near 1000",test
+hds_049,502,509,255518,RC,0.45,0.3,0.55,near_500,"Generated: 502 near 500, 509 near 500",train
+hds_050,244,251,61244,RC,0.45,0.3,0.55,near_250,"Generated: 244 near 250, 251 near 250",train
+hds_051,254,254,64516,RC,0.55,0.3,0.75,near_250,"Generated: 254 near 250, 254 near 250",train
+hds_052,496,503,249488,RC,0.55,0.3,0.75,near_500,"Generated: 496 near 500, 503 near 500",val
+hds_053,248,252,62496,RC,0.55,0.3,0.9,near_250,"Generated: 248 near 250, 252 near 250",train
+hds_054,996,999,995004,RC,0.55,0.3,0.75,near_1000,"Generated: 996 near 1000, 999 near 1000",val
+hds_055,246,247,60762,RC,0.55,0.3,0.75,near_250,"Generated: 246 near 250, 247 near 250",test
+hds_056,252,253,63756,RC,0.55,0.3,0.75,near_250,"Generated: 252 near 250, 253 near 250",train
+hds_057,496,496,246016,RC,0.55,0.3,0.75,near_500,"Generated: 496 near 500, 496 near 500",train
+hds_058,248,249,61752,RC,0.55,0.3,0.9,near_250,"Generated: 248 near 250, 249 near 250",train
+hds_059,248,251,62248,RC,0.45,0.3,0.9,near_250,"Generated: 248 near 250, 251 near 250",train
+hds_060,247,247,61009,RC,0.55,0.3,0.75,near_250,"Generated: 247 near 250, 247 near 250",train
+hds_061,499,501,249999,RC,0.45,0.3,0.9,near_500,"Generated: 499 near 500, 501 near 500",test
+hds_062,503,504,253512,RC,0.45,0.3,0.75,near_500,"Generated: 503 near 500, 504 near 500",train
+hds_063,498,504,250992,RC,0.55,0.3,0.75,near_500,"Generated: 498 near 500, 504 near 500",train
+hds_064,492,501,246492,RC,0.45,0.3,0.55,near_500,"Generated: 492 near 500, 501 near 500",test
+hds_065,996,997,993012,RC,0.55,0.3,0.75,near_1000,"Generated: 996 near 1000, 997 near 1000",train
+hds_066,247,254,62738,RC,0.55,0.3,0.75,near_250,"Generated: 247 near 250, 254 near 250",train
+hds_067,249,253,62997,RC,0.55,0.3,0.75,near_250,"Generated: 249 near 250, 253 near 250",train
+hds_068,497,503,249991,RC,0.55,0.3,0.75,near_500,"Generated: 497 near 500, 503 near 500",train
+hds_069,504,504,254016,RC,0.45,0.3,0.75,near_500,"Generated: 504 near 500, 504 near 500",train
+hds_070,999,999,998001,RC,0.55,0.3,0.9,near_1000,"Generated: 999 near 1000, 999 near 1000",train
+hds_071,501,501,251001,RC,0.45,0.3,0.9,near_500,"Generated: 501 near 500, 501 near 500",train
+hds_072,247,249,61503,RC,0.55,0.3,0.75,near_250,"Generated: 247 near 250, 249 near 250",val
+hds_073,491,501,245991,RC,0.45,0.3,0.55,near_500,"Generated: 491 near 500, 501 near 500",train
+hds_074,493,502,247486,RC,0.45,0.3,0.55,near_500,"Generated: 493 near 500, 502 near 500",val
+hds_075,997,997,994009,RC,0.55,0.3,0.75,near_1000,"Generated: 997 near 1000, 997 near 1000",test
+hds_076,246,251,61746,RC,0.45,0.3,0.75,near_250,"Generated: 246 near 250, 251 near 250",train
+hds_077,497,504,250488,RC,0.55,0.3,0.75,near_500,"Generated: 497 near 500, 504 near 500",train
+hds_078,249,254,63246,RC,0.55,0.3,0.75,near_250,"Generated: 249 near 250, 254 near 250",train
+hds_079,492,502,246984,RC,0.45,0.3,0.55,near_500,"Generated: 492 near 500, 502 near 500",val
+hds_080,251,254,63754,RC,0.45,0.3,0.75,near_250,"Generated: 251 near 250, 254 near 250",train
+hds_081,493,501,246993,RC,0.45,0.3,0.55,near_500,"Generated: 493 near 500, 501 near 500",train
+hds_082,251,252,63252,RC,0.45,0.3,0.9,near_250,"Generated: 251 near 250, 252 near 250",train
+hds_083,497,497,247009,RC,0.55,0.3,0.75,near_500,"Generated: 497 near 500, 497 near 500",train
+hds_084,251,251,63001,RC,0.45,0.3,0.9,near_250,"Generated: 251 near 250, 251 near 250",train
+hds_085,246,249,61254,RC,0.55,0.3,0.75,near_250,"Generated: 246 near 250, 249 near 250",train
+hds_086,501,503,252003,RC,0.45,0.3,0.75,near_500,"Generated: 501 near 500, 503 near 500",train
+hds_087,251,253,63503,RC,0.45,0.3,0.75,near_250,"Generated: 251 near 250, 253 near 250",test
+hds_088,499,502,250498,RC,0.55,0.3,0.9,near_500,"Generated: 499 near 500, 502 near 500",train
+hds_089,252,252,63504,RC,0.55,0.3,0.9,near_250,"Generated: 252 near 250, 252 near 250",train
+hds_090,502,506,254012,RC,0.45,0.3,0.55,near_500,"Generated: 502 near 500, 506 near 500",train
+hds_091,243,251,60993,RC,0.45,0.3,0.55,near_250,"Generated: 243 near 250, 251 near 250",val
+hds_092,996,996,992016,RC,0.55,0.3,0.75,near_1000,"Generated: 996 near 1000, 996 near 1000",train
+hds_093,253,254,64262,RC,0.55,0.3,0.75,near_250,"Generated: 253 near 250, 254 near 250",train
+hds_094,247,253,62491,RC,0.55,0.3,0.75,near_250,"Generated: 247 near 250, 253 near 250",test
+hds_095,501,504,252504,RC,0.45,0.3,0.75,near_500,"Generated: 501 near 500, 504 near 500",train
+hds_096,502,507,254514,RC,0.45,0.3,0.55,near_500,"Generated: 502 near 500, 507 near 500",train
+hds_097,502,504,253008,RC,0.45,0.3,0.75,near_500,"Generated: 502 near 500, 504 near 500",val
+hds_098,501,507,254007,RC,0.45,0.3,0.55,near_500,"Generated: 501 near 500, 507 near 500",val
+hds_099,497,502,249494,RC,0.55,0.3,0.75,near_500,"Generated: 497 near 500, 502 near 500",train
+hds_100,497,499,248003,RC,0.55,0.3,0.75,near_500,"Generated: 497 near 500, 499 near 500",train
+hds_101,241,248,59768,RC,0.45,0.3,0.55,near_250,"Generated: 241 near 250, 248 near 250",train
+hds_102,249,151,37599,RC,0.45,0.3,0.55,near_250_mixed,"Generated: 249 near 250, 151 far from base",train
+hds_103,502,502,252004,RC,0.45,0.3,0.9,near_500,"Generated: 502 near 500, 502 near 500",train
+hds_104,242,249,60258,RC,0.45,0.3,0.55,near_250,"Generated: 242 near 250, 249 near 250",val
+hds_105,248,254,62992,RC,0.55,0.3,0.75,near_250,"Generated: 248 near 250, 254 near 250",train
+hds_106,247,252,62244,RC,0.55,0.3,0.75,near_250,"Generated: 247 near 250, 252 near 250",train
+hds_107,498,501,249498,RC,0.45,0.3,0.9,near_500,"Generated: 498 near 500, 501 near 500",test
+hds_108,491,502,246482,RC,0.45,0.3,0.55,near_500,"Generated: 491 near 500, 502 near 500",train
+hds_109,246,248,61008,RC,0.55,0.3,0.75,near_250,"Generated: 246 near 250, 248 near 250",train
+hds_110,497,498,247506,RC,0.55,0.3,0.75,near_500,"Generated: 497 near 500, 498 near 500",train
+hds_111,499,499,249001,RC,0.55,0.3,0.9,near_500,"Generated: 499 near 500, 499 near 500",val
+hds_112,494,502,247988,RC,0.45,0.3,0.55,near_500,"Generated: 494 near 500, 502 near 500",train
+hds_113,1997,2001,3995997,RC,0.45,0.3,0.75,near_2000,"Generated: 1997 near 2000, 2001 near 2000",train
+hds_114,4998,5003,25004994,RC,0.55,0.3,0.75,near_5000,"Generated: 4998 near 5000, 5003 near 5000",train
+hds_115,4999,5002,25004998,RC,0.45,0.3,0.9,near_5000,"Generated: 4999 near 5000, 5002 near 5000",train
+hds_116,2497,2497,6235009,RC,0.55,0.3,0.75,near_2500,"Generated: 2497 near 2500, 2497 near 2500",train
+hds_117,2497,2501,6244997,RC,0.45,0.3,0.75,near_2500,"Generated: 2497 near 2500, 2501 near 2500",train
+hds_118,2502,2507,6272514,RC,0.45,0.3,0.55,near_2500,"Generated: 2502 near 2500, 2507 near 2500",test
+hds_119,1001,1007,1008007,RC,0.45,0.3,0.55,near_1000,"Generated: 1001 near 1000, 1007 near 1000",train
+hds_120,1999,2002,4001998,RC,0.45,0.3,0.9,near_2000,"Generated: 1999 near 2000, 2002 near 2000",train
+hds_121,5001,5001,25010001,RC,0.45,0.3,0.9,near_5000,"Generated: 5001 near 5000, 5001 near 5000",test
+hds_122,2502,2506,6270012,RC,0.45,0.3,0.55,near_2500,"Generated: 2502 near 2500, 2506 near 2500",val
+hds_123,1996,2004,3999984,RC,0.45,0.3,0.75,near_2000,"Generated: 1996 near 2000, 2004 near 2000",train
+hds_124,2501,2501,6255001,RC,0.45,0.3,0.9,near_2500,"Generated: 2501 near 2500, 2501 near 2500",train
+hds_125,998,1008,1005984,RC,0.45,0.3,0.55,near_1000,"Generated: 998 near 1000, 1008 near 1000",train
+hds_126,1999,2007,4011993,RC,0.45,0.3,0.55,near_2000,"Generated: 1999 near 2000, 2007 near 2000",train
+hds_127,1998,1998,3992004,RC,0.55,0.3,0.9,near_2000,"Generated: 1998 near 2000, 1998 near 2000",train
+hds_128,5001,5004,25025004,RC,0.45,0.3,0.75,near_5000,"Generated: 5001 near 5000, 5004 near 5000",train
+hds_129,1991,1999,3980009,RC,0.45,0.3,0.55,near_2000,"Generated: 1991 near 2000, 1999 near 2000",train
+hds_130,4999,5004,25014996,RC,0.55,0.3,0.75,near_5000,"Generated: 4999 near 5000, 5004 near 5000",test
+hds_131,1993,2002,3989986,RC,0.45,0.3,0.55,near_2000,"Generated: 1993 near 2000, 2002 near 2000",train
+hds_132,4996,4999,24975004,RC,0.55,0.3,0.75,near_5000,"Generated: 4996 near 5000, 4999 near 5000",train
+hds_133,2496,2496,6230016,RC,0.55,0.3,0.75,near_2500,"Generated: 2496 near 2500, 2496 near 2500",train
+hds_134,5002,5007,25045014,RC,0.45,0.3,0.55,near_5000,"Generated: 5002 near 5000, 5007 near 5000",train
+hds_135,1992,2002,3987984,RC,0.45,0.3,0.55,near_2000,"Generated: 1992 near 2000, 2002 near 2000",train
+hds_136,1999,2009,4015991,RC,0.45,0.3,0.55,near_2000,"Generated: 1999 near 2000, 2009 near 2000",test
+hds_137,998,1003,1000994,RC,0.45,0.3,0.75,near_1000,"Generated: 998 near 1000, 1003 near 1000",train
+hds_138,1001,1006,1007006,RC,0.45,0.3,0.55,near_1000,"Generated: 1001 near 1000, 1006 near 1000",train
+hds_139,999,1001,999999,RC,0.45,0.3,0.9,near_1000,"Generated: 999 near 1000, 1001 near 1000",train
+hds_140,2499,2504,6257496,RC,0.55,0.3,0.75,near_2500,"Generated: 2499 near 2500, 2504 near 2500",val
+hds_141,2001,2001,4004001,RC,0.45,0.3,0.9,near_2000,"Generated: 2001 near 2000, 2001 near 2000",train
+hds_142,2002,2006,4016012,RC,0.45,0.3,0.55,near_2000,"Generated: 2002 near 2000, 2006 near 2000",train
+hds_143,2499,2501,6249999,RC,0.45,0.3,0.9,near_2500,"Generated: 2499 near 2500, 2501 near 2500",val
+hds_144,1996,2001,3993996,RC,0.45,0.3,0.75,near_2000,"Generated: 1996 near 2000, 2001 near 2000",train
+hds_145,1996,2002,3995992,RC,0.45,0.3,0.75,near_2000,"Generated: 1996 near 2000, 2002 near 2000",train
+hds_146,1998,2002,3999996,RC,0.45,0.3,0.9,near_2000,"Generated: 1998 near 2000, 2002 near 2000",train
+hds_147,2001,2009,4020009,RC,0.45,0.3,0.55,near_2000,"Generated: 2001 near 2000, 2009 near 2000",train
+hds_148,2502,2508,6275016,RC,0.45,0.3,0.55,near_2500,"Generated: 2502 near 2500, 2508 near 2500",train
+hds_149,2497,2499,6240003,RC,0.55,0.3,0.75,near_2500,"Generated: 2497 near 2500, 2499 near 2500",train
+hds_150,1999,2008,4013992,RC,0.45,0.3,0.55,near_2000,"Generated: 1999 near 2000, 2008 near 2000",train
+hds_151,1996,1998,3988008,RC,0.55,0.3,0.75,near_2000,"Generated: 1996 near 2000, 1998 near 2000",test
+hds_152,4998,4998,24980004,RC,0.55,0.3,0.9,near_5000,"Generated: 4998 near 5000, 4998 near 5000",train
+hds_153,998,1002,999996,RC,0.45,0.3,0.9,near_1000,"Generated: 998 near 1000, 1002 near 1000",train
+hds_154,1001,1002,1003002,RC,0.45,0.3,0.9,near_1000,"Generated: 1001 near 1000, 1002 near 1000",train
+hds_155,996,1004,999984,RC,0.45,0.3,0.75,near_1000,"Generated: 996 near 1000, 1004 near 1000",train
+hds_156,1004,1004,1008016,RC,0.45,0.3,0.75,near_1000,"Generated: 1004 near 1000, 1004 near 1000",train
+hds_157,2002,2009,4022018,RC,0.45,0.3,0.55,near_2000,"Generated: 2002 near 2000, 2009 near 2000",train
+hds_158,1002,1008,1010016,RC,0.45,0.3,0.55,near_1000,"Generated: 1002 near 1000, 1008 near 1000",test
+hds_159,999,1007,1005993,RC,0.45,0.3,0.55,near_1000,"Generated: 999 near 1000, 1007 near 1000",train
+hds_160,5001,5008,25045008,RC,0.45,0.3,0.55,near_5000,"Generated: 5001 near 5000, 5008 near 5000",train
+hds_161,1999,2004,4005996,RC,0.45,0.3,0.75,near_2000,"Generated: 1999 near 2000, 2004 near 2000",train
+hds_162,5001,5002,25015002,RC,0.45,0.3,0.9,near_5000,"Generated: 5001 near 5000, 5002 near 5000",val
+hds_163,2502,2502,6260004,RC,0.45,0.3,0.9,near_2500,"Generated: 2502 near 2500, 2502 near 2500",train
+hds_164,1997,1997,3988009,RC,0.55,0.3,0.75,near_2000,"Generated: 1997 near 2000, 1997 near 2000",train
+hds_165,4992,5001,24964992,RC,0.45,0.3,0.55,near_5000,"Generated: 4992 near 5000, 5001 near 5000",val
+hds_166,999,1003,1001997,RC,0.45,0.3,0.75,near_1000,"Generated: 999 near 1000, 1003 near 1000",train
+hds_167,991,1001,991991,RC,0.45,0.3,0.55,near_1000,"Generated: 991 near 1000, 1001 near 1000",val
+hds_168,1998,2007,4009986,RC,0.45,0.3,0.55,near_2000,"Generated: 1998 near 2000, 2007 near 2000",val
+hds_169,2496,2499,6237504,RC,0.55,0.3,0.75,near_2500,"Generated: 2496 near 2500, 2499 near 2500",train
+hds_170,4994,5002,24979988,RC,0.45,0.3,0.55,near_5000,"Generated: 4994 near 5000, 5002 near 5000",train
+hds_171,993,1001,993993,RC,0.45,0.3,0.55,near_1000,"Generated: 993 near 1000, 1001 near 1000",train
+hds_172,998,1009,1006982,RC,0.45,0.3,0.55,near_1000,"Generated: 998 near 1000, 1009 near 1000",test
+hds_173,2499,2499,6245001,RC,0.55,0.3,0.9,near_2500,"Generated: 2499 near 2500, 2499 near 2500",train
+hds_174,1002,516,517032,RC,0.45,0.3,0.55,near_1000_mixed,"Generated: 1002 near 1000, 516 far from base",test
+hds_175,2497,2502,6247494,RC,0.55,0.3,0.75,near_2500,"Generated: 2497 near 2500, 2502 near 2500",train
+hds_176,5002,5009,25055018,RC,0.45,0.3,0.55,near_5000,"Generated: 5002 near 5000, 5009 near 5000",train
+hds_177,1002,739,740478,RC,0.45,0.3,0.55,near_1000_mixed,"Generated: 1002 near 1000, 739 far from base",train
+hds_178,4992,5002,24969984,RC,0.45,0.3,0.55,near_5000,"Generated: 4992 near 5000, 5002 near 5000",train
+hds_179,4996,5004,24999984,RC,0.55,0.3,0.75,near_5000,"Generated: 4996 near 5000, 5004 near 5000",train
+hds_180,5002,5008,25050016,RC,0.45,0.3,0.55,near_5000,"Generated: 5002 near 5000, 5008 near 5000",train
+hds_181,5001,5006,25035006,RC,0.45,0.3,0.55,near_5000,"Generated: 5001 near 5000, 5006 near 5000",val
+hds_182,996,1002,997992,RC,0.45,0.3,0.75,near_1000,"Generated: 996 near 1000, 1002 near 1000",train
+hds_183,2002,2002,4008004,RC,0.45,0.3,0.9,near_2000,"Generated: 2002 near 2000, 2002 near 2000",train
+hds_184,1991,1998,3978018,RC,0.45,0.3,0.55,near_2000,"Generated: 1991 near 2000, 1998 near 2000",test
+hds_185,5002,5002,25020004,RC,0.45,0.3,0.9,near_5000,"Generated: 5002 near 5000, 5002 near 5000",train
+hds_186,1998,2004,4003992,RC,0.45,0.3,0.75,near_2000,"Generated: 1998 near 2000, 2004 near 2000",train
+hds_187,4996,5002,24989992,RC,0.45,0.3,0.75,near_5000,"Generated: 4996 near 5000, 5002 near 5000",train
+hds_188,1997,2004,4001988,RC,0.45,0.3,0.75,near_2000,"Generated: 1997 near 2000, 2004 near 2000",train
+hds_189,997,1002,998994,RC,0.45,0.3,0.75,near_1000,"Generated: 997 near 1000, 1002 near 1000",val
+hds_190,4996,5001,24984996,RC,0.45,0.3,0.75,near_5000,"Generated: 4996 near 5000, 5001 near 5000",train
+hds_191,4997,4998,24975006,RC,0.55,0.3,0.75,near_5000,"Generated: 4997 near 5000, 4998 near 5000",train
+hds_192,1999,2003,4003997,RC,0.45,0.3,0.75,near_2000,"Generated: 1999 near 2000, 2003 near 2000",test
+hds_193,4997,5001,24989997,RC,0.45,0.3,0.75,near_5000,"Generated: 4997 near 5000, 5001 near 5000",train
+hds_194,1998,2001,3997998,RC,0.45,0.3,0.9,near_2000,"Generated: 1998 near 2000, 2001 near 2000",val
+hds_195,2497,2504,6252488,RC,0.55,0.3,0.75,near_2500,"Generated: 2497 near 2500, 2504 near 2500",test
+hds_196,1003,1003,1006009,RC,0.45,0.3,0.75,near_1000,"Generated: 1003 near 1000, 1003 near 1000",train
+hds_197,501,4262,2135262,RC,0.45,0.3,0.55,near_500_mixed,"Generated: 501 near 500, 4262 far from base",train
+hds_198,4996,5003,24994988,RC,0.55,0.3,0.75,near_5000,"Generated: 4996 near 5000, 5003 near 5000",train
+hds_199,2496,2502,6244992,RC,0.55,0.3,0.75,near_2500,"Generated: 2496 near 2500, 2502 near 2500",train
+hds_200,1997,2002,3997994,RC,0.45,0.3,0.75,near_2000,"Generated: 1997 near 2000, 2002 near 2000",train
+hds_201,997,1003,999991,RC,0.45,0.3,0.75,near_1000,"Generated: 997 near 1000, 1003 near 1000",train
+hds_202,5002,5006,25040012,RC,0.45,0.3,0.55,near_5000,"Generated: 5002 near 5000, 5006 near 5000",train
+hds_203,2503,2503,6265009,RC,0.45,0.3,0.75,near_2500,"Generated: 2503 near 2500, 2503 near 2500",train
+hds_204,4996,4998,24970008,RC,0.55,0.3,0.75,near_5000,"Generated: 4996 near 5000, 4998 near 5000",test
+hds_205,999,1008,1006992,RC,0.45,0.3,0.55,near_1000,"Generated: 999 near 1000, 1008 near 1000",train
+hds_206,4998,5001,24994998,RC,0.45,0.3,0.9,near_5000,"Generated: 4998 near 5000, 5001 near 5000",val
+hds_207,1998,2003,4001994,RC,0.45,0.3,0.75,near_2000,"Generated: 1998 near 2000, 2003 near 2000",train
+hds_208,2003,2004,4014012,RC,0.45,0.3,0.75,near_2000,"Generated: 2003 near 2000, 2004 near 2000",val
+hds_209,999,1002,1000998,RC,0.45,0.3,0.9,near_1000,"Generated: 999 near 1000, 1002 near 1000",val
+hds_210,999,1009,1007991,RC,0.45,0.3,0.55,near_1000,"Generated: 999 near 1000, 1009 near 1000",val
+hds_211,992,1002,993984,RC,0.45,0.3,0.55,near_1000,"Generated: 992 near 1000, 1002 near 1000",train
+hds_212,2493,2502,6237486,RC,0.45,0.3,0.55,near_2500,"Generated: 2493 near 2500, 2502 near 2500",test
+hds_213,2503,2504,6267512,RC,0.45,0.3,0.75,near_2500,"Generated: 2503 near 2500, 2504 near 2500",test
+hds_214,4996,4996,24960016,RC,0.55,0.3,0.75,near_5000,"Generated: 4996 near 5000, 4996 near 5000",test
+hds_215,2499,2503,6254997,RC,0.55,0.3,0.75,near_2500,"Generated: 2499 near 2500, 2503 near 2500",test
+hds_216,996,1001,996996,RC,0.45,0.3,0.75,near_1000,"Generated: 996 near 1000, 1001 near 1000",train
+hds_217,1998,2008,4011984,RC,0.45,0.3,0.55,near_2000,"Generated: 1998 near 2000, 2008 near 2000",train
+hds_218,999,1006,1004994,RC,0.45,0.3,0.55,near_1000,"Generated: 999 near 1000, 1006 near 1000",test
+hds_219,1002,1007,1009014,RC,0.45,0.3,0.55,near_1000,"Generated: 1002 near 1000, 1007 near 1000",train
+hds_220,2001,462,924462,RC,0.45,0.3,0.55,near_2000_mixed,"Generated: 2001 near 2000, 462 far from base",train
+hds_221,2501,2503,6260003,RC,0.45,0.3,0.75,near_2500,"Generated: 2501 near 2500, 2503 near 2500",train
+hds_222,2001,2002,4006002,RC,0.45,0.3,0.9,near_2000,"Generated: 2001 near 2000, 2002 near 2000",val
+hds_223,992,1001,992992,RC,0.45,0.3,0.55,near_1000,"Generated: 992 near 1000, 1001 near 1000",train
+hds_224,4997,5004,25004988,RC,0.55,0.3,0.75,near_5000,"Generated: 4997 near 5000, 5004 near 5000",train
+hds_225,996,1003,998988,RC,0.45,0.3,0.75,near_1000,"Generated: 996 near 1000, 1003 near 1000",train
+hds_226,2493,2501,6234993,RC,0.45,0.3,0.55,near_2500,"Generated: 2493 near 2500, 2501 near 2500",train
+hds_227,5004,5004,25040016,RC,0.45,0.3,0.75,near_5000,"Generated: 5004 near 5000, 5004 near 5000",train
+hds_228,1991,2002,3985982,RC,0.45,0.3,0.55,near_2000,"Generated: 1991 near 2000, 2002 near 2000",train
+hds_229,4993,5001,24969993,RC,0.45,0.3,0.55,near_5000,"Generated: 4993 near 5000, 5001 near 5000",train
+hds_230,2001,2003,4008003,RC,0.45,0.3,0.75,near_2000,"Generated: 2001 near 2000, 2003 near 2000",train
+hds_231,4997,4997,24970009,RC,0.55,0.3,0.75,near_5000,"Generated: 4997 near 5000, 4997 near 5000",train
+hds_232,1003,1004,1007012,RC,0.45,0.3,0.75,near_1000,"Generated: 1003 near 1000, 1004 near 1000",test
+hds_233,5001,5007,25040007,RC,0.45,0.3,0.55,near_5000,"Generated: 5001 near 5000, 5007 near 5000",val
+hds_234,2496,2504,6249984,RC,0.55,0.3,0.75,near_2500,"Generated: 2496 near 2500, 2504 near 2500",train
+hds_235,1002,1006,1008012,RC,0.45,0.3,0.55,near_1000,"Generated: 1002 near 1000, 1006 near 1000",val
+hds_236,2496,2503,6247488,RC,0.55,0.3,0.75,near_2500,"Generated: 2496 near 2500, 2503 near 2500",train
+hds_237,1994,2001,3989994,RC,0.45,0.3,0.55,near_2000,"Generated: 1994 near 2000, 2001 near 2000",train
+hds_238,999,1004,1002996,RC,0.45,0.3,0.75,near_1000,"Generated: 999 near 1000, 1004 near 1000",train
+hds_239,1002,1003,1005006,RC,0.45,0.3,0.75,near_1000,"Generated: 1002 near 1000, 1003 near 1000",val
+hds_240,5003,5003,25030009,RC,0.45,0.3,0.75,near_5000,"Generated: 5003 near 5000, 5003 near 5000",train
+hds_241,5001,5003,25020003,RC,0.45,0.3,0.75,near_5000,"Generated: 5001 near 5000, 5003 near 5000",train
+hds_242,997,1001,997997,RC,0.45,0.3,0.75,near_1000,"Generated: 997 near 1000, 1001 near 1000",train
+hds_243,1002,1009,1011018,RC,0.45,0.3,0.55,near_1000,"Generated: 1002 near 1000, 1009 near 1000",train
+hds_244,1001,2567,2569567,RC,0.45,0.3,0.55,near_1000_mixed,"Generated: 1001 near 1000, 2567 far from base",train
+hds_245,1001,1003,1004003,RC,0.45,0.3,0.75,near_1000,"Generated: 1001 near 1000, 1003 near 1000",train
+hds_246,5002,5003,25025006,RC,0.45,0.3,0.75,near_5000,"Generated: 5002 near 5000, 5003 near 5000",train
+hds_247,998,1007,1004986,RC,0.45,0.3,0.55,near_1000,"Generated: 998 near 1000, 1007 near 1000",train
+hds_248,2501,2509,6275009,RC,0.45,0.3,0.55,near_2500,"Generated: 2501 near 2500, 2509 near 2500",train
+hds_249,2001,2008,4018008,RC,0.45,0.3,0.55,near_2000,"Generated: 2001 near 2000, 2008 near 2000",val
+hds_250,994,1001,994994,RC,0.45,0.3,0.55,near_1000,"Generated: 994 near 1000, 1001 near 1000",train
+hds_251,2498,2499,6242502,RC,0.55,0.3,0.9,near_2500,"Generated: 2498 near 2500, 2499 near 2500",train
+hds_252,1001,1001,1002001,RC,0.45,0.3,0.9,near_1000,"Generated: 1001 near 1000, 1001 near 1000",test
+hds_253,4993,5002,24974986,RC,0.45,0.3,0.55,near_5000,"Generated: 4993 near 5000, 5002 near 5000",train
+hds_254,1002,1004,1006008,RC,0.45,0.3,0.75,near_1000,"Generated: 1002 near 1000, 1004 near 1000",train
+hds_255,2002,2003,4010006,RC,0.45,0.3,0.75,near_2000,"Generated: 2002 near 2000, 2003 near 2000",train
+hds_256,1999,2001,3999999,RC,0.45,0.3,0.9,near_2000,"Generated: 1999 near 2000, 2001 near 2000",train
+hds_257,2502,2503,6262506,RC,0.45,0.3,0.75,near_2500,"Generated: 2502 near 2500, 2503 near 2500",train
+hds_258,994,1002,995988,RC,0.45,0.3,0.55,near_1000,"Generated: 994 near 1000, 1002 near 1000",val
+hds_259,2501,2506,6267506,RC,0.45,0.3,0.55,near_2500,"Generated: 2501 near 2500, 2506 near 2500",train
+hds_260,2004,2004,4016016,RC,0.45,0.3,0.75,near_2000,"Generated: 2004 near 2000, 2004 near 2000",train
+hds_261,4997,5003,24999991,RC,0.55,0.3,0.75,near_5000,"Generated: 4997 near 5000, 5003 near 5000",train
+hds_262,2501,2507,6270007,RC,0.45,0.3,0.55,near_2500,"Generated: 2501 near 2500, 2507 near 2500",train
+hds_263,4999,5001,24999999,RC,0.45,0.3,0.9,near_5000,"Generated: 4999 near 5000, 5001 near 5000",test
+hds_264,1993,2001,3987993,RC,0.45,0.3,0.55,near_2000,"Generated: 1993 near 2000, 2001 near 2000",test
+hds_265,2498,2503,6252494,RC,0.55,0.3,0.75,near_2500,"Generated: 2498 near 2500, 2503 near 2500",test
+hds_266,2498,2501,6247498,RC,0.45,0.3,0.9,near_2500,"Generated: 2498 near 2500, 2501 near 2500",train
+hds_267,4991,5002,24964982,RC,0.45,0.3,0.55,near_5000,"Generated: 4991 near 5000, 5002 near 5000",train
+hds_268,4991,5001,24959991,RC,0.45,0.3,0.55,near_5000,"Generated: 4991 near 5000, 5001 near 5000",train
+hds_269,1998,1999,3994002,RC,0.55,0.3,0.9,near_2000,"Generated: 1998 near 2000, 1999 near 2000",train
+hds_270,1999,2006,4009994,RC,0.45,0.3,0.55,near_2000,"Generated: 1999 near 2000, 2006 near 2000",train
+hds_271,991,1002,992982,RC,0.45,0.3,0.55,near_1000,"Generated: 991 near 1000, 1002 near 1000",train
+hds_272,2496,2498,6235008,RC,0.55,0.3,0.75,near_2500,"Generated: 2496 near 2500, 2498 near 2500",train
+hds_273,2001,2004,4010004,RC,0.45,0.3,0.75,near_2000,"Generated: 2001 near 2000, 2004 near 2000",test
+hds_274,2501,2502,6257502,RC,0.45,0.3,0.9,near_2500,"Generated: 2501 near 2500, 2502 near 2500",train
+hds_275,993,1002,994986,RC,0.45,0.3,0.55,near_1000,"Generated: 993 near 1000, 1002 near 1000",train
+hds_276,2501,2504,6262504,RC,0.45,0.3,0.75,near_2500,"Generated: 2501 near 2500, 2504 near 2500",test
+hds_277,2001,2007,4016007,RC,0.45,0.3,0.55,near_2000,"Generated: 2001 near 2000, 2007 near 2000",train
+hds_278,2002,2008,4020016,RC,0.45,0.3,0.55,near_2000,"Generated: 2002 near 2000, 2008 near 2000",val
+hds_279,2491,2502,6232482,RC,0.45,0.3,0.55,near_2500,"Generated: 2491 near 2500, 2502 near 2500",test
+hds_280,1991,2001,3983991,RC,0.45,0.3,0.55,near_2000,"Generated: 1991 near 2000, 2001 near 2000",train
+hds_281,2491,2501,6229991,RC,0.45,0.3,0.55,near_2500,"Generated: 2491 near 2500, 2501 near 2500",train
+hds_282,2497,2498,6237506,RC,0.55,0.3,0.75,near_2500,"Generated: 2497 near 2500, 2498 near 2500",train
+hds_283,2498,2502,6249996,RC,0.55,0.3,0.9,near_2500,"Generated: 2498 near 2500, 2502 near 2500",test
+hds_284,1001,1008,1009008,RC,0.45,0.3,0.55,near_1000,"Generated: 1001 near 1000, 1008 near 1000",val
+hds_285,4996,4997,24965012,RC,0.55,0.3,0.75,near_5000,"Generated: 4996 near 5000, 4997 near 5000",train
+hds_286,1996,1996,3984016,RC,0.55,0.3,0.75,near_2000,"Generated: 1996 near 2000, 1996 near 2000",train
+hds_287,2499,2502,6252498,RC,0.55,0.3,0.9,near_2500,"Generated: 2499 near 2500, 2502 near 2500",test
+hds_288,4999,4999,24990001,RC,0.55,0.3,0.9,near_5000,"Generated: 4999 near 5000, 4999 near 5000",test
+hds_289,1994,2002,3991988,RC,0.45,0.3,0.55,near_2000,"Generated: 1994 near 2000, 2002 near 2000",val
+hds_290,2498,2504,6254992,RC,0.55,0.3,0.75,near_2500,"Generated: 2498 near 2500, 2504 near 2500",test
+hds_291,1996,1997,3986012,RC,0.55,0.3,0.75,near_2000,"Generated: 1996 near 2000, 1997 near 2000",train
+hds_292,2494,2501,6237494,RC,0.45,0.3,0.55,near_2500,"Generated: 2494 near 2500, 2501 near 2500",val
+hds_293,4998,4999,24985002,RC,0.55,0.3,0.9,near_5000,"Generated: 4998 near 5000, 4999 near 5000",train
+hds_294,2492,2501,6232492,RC,0.45,0.3,0.55,near_2500,"Generated: 2492 near 2500, 2501 near 2500",train
+hds_295,1002,1002,1004004,RC,0.45,0.3,0.9,near_1000,"Generated: 1002 near 1000, 1002 near 1000",test
+hds_296,2497,2503,6249991,RC,0.55,0.3,0.75,near_2500,"Generated: 2497 near 2500, 2503 near 2500",test
+hds_297,4997,5002,24994994,RC,0.45,0.3,0.75,near_5000,"Generated: 4997 near 5000, 5002 near 5000",train
+hds_298,5003,5004,25035012,RC,0.45,0.3,0.75,near_5000,"Generated: 5003 near 5000, 5004 near 5000",train
+hds_299,2496,2497,6232512,RC,0.55,0.3,0.75,near_2500,"Generated: 2496 near 2500, 2497 near 2500",train
+hds_300,1001,1009,1010009,RC,0.45,0.3,0.55,near_1000,"Generated: 1001 near 1000, 1009 near 1000",test
+hds_301,2002,2004,4012008,RC,0.45,0.3,0.75,near_2000,"Generated: 2002 near 2000, 2004 near 2000",train
+hds_302,2494,2502,6239988,RC,0.45,0.3,0.55,near_2500,"Generated: 2494 near 2500, 2502 near 2500",test
+hds_303,2002,2007,4018014,RC,0.45,0.3,0.55,near_2000,"Generated: 2002 near 2000, 2007 near 2000",train
+hds_304,1996,1999,3990004,RC,0.55,0.3,0.75,near_2000,"Generated: 1996 near 2000, 1999 near 2000",train
+hds_305,1992,2001,3985992,RC,0.45,0.3,0.55,near_2000,"Generated: 1992 near 2000, 2001 near 2000",train
+hds_306,998,1001,998998,RC,0.45,0.3,0.9,near_1000,"Generated: 998 near 1000, 1001 near 1000",train
+hds_307,4994,5001,24974994,RC,0.45,0.3,0.55,near_5000,"Generated: 4994 near 5000, 5001 near 5000",train
+hds_308,1996,2003,3997988,RC,0.45,0.3,0.75,near_2000,"Generated: 1996 near 2000, 2003 near 2000",train
+hds_309,2001,2006,4014006,RC,0.45,0.3,0.55,near_2000,"Generated: 2001 near 2000, 2006 near 2000",train
+hds_310,1997,2003,3999991,RC,0.45,0.3,0.75,near_2000,"Generated: 1997 near 2000, 2003 near 2000",train
+hds_311,2502,2509,6277518,RC,0.45,0.3,0.55,near_2500,"Generated: 2502 near 2500, 2509 near 2500",train
+hds_312,4997,4999,24980003,RC,0.55,0.3,0.75,near_5000,"Generated: 4997 near 5000, 4999 near 5000",train
+hds_313,4998,5004,25009992,RC,0.55,0.3,0.75,near_5000,"Generated: 4998 near 5000, 5004 near 5000",train
+hds_314,2501,2508,6272508,RC,0.45,0.3,0.55,near_2500,"Generated: 2501 near 2500, 2508 near 2500",train
+hds_315,998,1004,1001992,RC,0.45,0.3,0.75,near_1000,"Generated: 998 near 1000, 1004 near 1000",val
+hds_316,4998,5002,24999996,RC,0.45,0.3,0.9,near_5000,"Generated: 4998 near 5000, 5002 near 5000",test
+hds_317,1997,1998,3990006,RC,0.55,0.3,0.75,near_2000,"Generated: 1997 near 2000, 1998 near 2000",train
+hds_318,2498,2498,6240004,RC,0.55,0.3,0.9,near_2500,"Generated: 2498 near 2500, 2498 near 2500",test
+hds_319,4999,5003,25009997,RC,0.55,0.3,0.75,near_5000,"Generated: 4999 near 5000, 5003 near 5000",train
+hds_320,1001,1004,1005004,RC,0.45,0.3,0.75,near_1000,"Generated: 1001 near 1000, 1004 near 1000",val
+hds_321,1999,1999,3996001,RC,0.55,0.3,0.9,near_2000,"Generated: 1999 near 2000, 1999 near 2000",train
+hds_322,1998,2009,4013982,RC,0.45,0.3,0.55,near_2000,"Generated: 1998 near 2000, 2009 near 2000",train
+hds_323,997,1004,1000988,RC,0.45,0.3,0.75,near_1000,"Generated: 997 near 1000, 1004 near 1000",test
+hds_324,2496,2501,6242496,RC,0.45,0.3,0.75,near_2500,"Generated: 2496 near 2500, 2501 near 2500",train
+hds_325,5001,5009,25050009,RC,0.45,0.3,0.55,near_5000,"Generated: 5001 near 5000, 5009 near 5000",test
+hds_326,2502,2504,6265008,RC,0.45,0.3,0.75,near_2500,"Generated: 2502 near 2500, 2504 near 2500",train
+hds_327,2003,2003,4012009,RC,0.45,0.3,0.75,near_2000,"Generated: 2003 near 2000, 2003 near 2000",train
+hds_328,1997,1999,3992003,RC,0.55,0.3,0.75,near_2000,"Generated: 1997 near 2000, 1999 near 2000",train
+hds_329,5002,5004,25030008,RC,0.45,0.3,0.75,near_5000,"Generated: 5002 near 5000, 5004 near 5000",train
+hds_330,998,1006,1003988,RC,0.45,0.3,0.55,near_1000,"Generated: 998 near 1000, 1006 near 1000",train
+hds_331,1998,2006,4007988,RC,0.45,0.3,0.55,near_2000,"Generated: 1998 near 2000, 2006 near 2000",train
+hds_332,2492,2502,6234984,RC,0.45,0.3,0.55,near_2500,"Generated: 2492 near 2500, 2502 near 2500",test
+hds_333,2504,2504,6270016,RC,0.45,0.3,0.75,near_2500,"Generated: 2504 near 2500, 2504 near 2500",val
+hds_334,780,325,253500,DD,0.55,1.0,0.1,quarter_hundred,Generated: 780*325 uses quarter-hundred decomposition,train
+hds_335,119,750,89250,DD,0.45,1.0,0.1,zero_factor,Generated: 119*750 = 119*75*10,train
+hds_336,946,800,756800,DD,0.45,1.0,0.1,hundred_factor,Generated: 946*800,train
+hds_337,898,925,830650,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 898*925 uses quarter-hundred decomposition,val
+hds_338,120,640,76800,DD,0.45,1.0,0.1,zero_factor,Generated: 120*640 = 120*64*10,val
+hds_339,901,900,810900,DD,0.45,1.0,0.1,hundred_factor,Generated: 901*900,test
+hds_340,453,900,407700,DD,0.45,1.0,0.1,zero_factor,Generated: 453*900 = 453*90*10,train
+hds_341,981,880,863280,DD,0.45,1.0,0.1,zero_factor,Generated: 981*880 = 981*88*10,train
+hds_342,726,600,435600,DD,0.45,1.0,0.1,hundred_factor,Generated: 726*600,train
+hds_343,637,940,598780,DD,0.55,1.0,0.1,zero_factor,Generated: 637*940 = 637*94*10,train
+hds_344,675,970,654750,DD,0.55,1.0,0.1,zero_factor,Generated: 675*970 = 675*97*10,train
+hds_345,643,300,192900,DD,0.45,1.0,0.1,hundred_factor,Generated: 643*300,train
+hds_346,912,900,820800,DD,0.45,1.0,0.1,hundred_factor,Generated: 912*900,train
+hds_347,613,500,306500,DD,0.45,1.0,0.55,hundred_factor,Generated: 613*500,train
+hds_348,605,800,484000,DD,0.45,1.0,0.1,zero_factor,Generated: 605*800 = 605*80*10,train
+hds_349,200,390,78000,DD,0.45,1.0,0.1,zero_factor,Generated: 200*390 = 200*39*10,test
+hds_350,806,840,677040,DD,0.45,1.0,0.1,zero_factor,Generated: 806*840 = 806*84*10,test
+hds_351,468,390,182520,DD,0.55,1.0,0.1,zero_factor,Generated: 468*390 = 468*39*10,test
+hds_352,592,625,370000,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 592*625 uses quarter-hundred decomposition,train
+hds_353,122,570,69540,DD,0.45,1.0,0.1,zero_factor,Generated: 122*570 = 122*57*10,train
+hds_354,164,225,36900,DD,0.45,0.9999999999999999,0.1,quarter_hundred,Generated: 164*225 uses quarter-hundred decomposition,train
+hds_355,895,970,868150,DD,0.55,1.0,0.1,zero_factor,Generated: 895*970 = 895*97*10,test
+hds_356,173,250,43250,DD,0.45,1.0,0.55,zero_factor,Generated: 173*250 = 173*25*10,train
+hds_357,592,525,310800,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 592*525 uses quarter-hundred decomposition,train
+hds_358,475,820,389500,DD,0.55,1.0,0.1,zero_factor,Generated: 475*820 = 475*82*10,train
+hds_359,175,171,29925,DD,0.45,0.9999999999999999,0.1,clean_decomp,Generated: 175 = 170+5,train
+hds_360,465,790,367350,DD,0.55,1.0,0.1,zero_factor,Generated: 465*790 = 465*79*10,test
+hds_361,426,200,85200,DD,0.45,1.0,0.1,hundred_factor,Generated: 426*200,train
+hds_362,281,320,89920,DD,0.45,1.0,0.1,zero_factor,Generated: 281*320 = 281*32*10,test
+hds_363,558,600,334800,DD,0.45,1.0,0.1,quarter_hundred,Generated: 558*600 uses quarter-hundred decomposition,val
+hds_364,212,875,185500,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 212*875 uses quarter-hundred decomposition,val
+hds_365,910,250,227500,DD,0.45,1.0,0.55,zero_factor,Generated: 910*250 = 910*25*10,train
+hds_366,296,100,29600,DD,0.45,1.0,0.1,hundred_factor,Generated: 296*100,train
+hds_367,185,770,142450,DD,0.45,1.0,0.1,zero_factor,Generated: 185*770 = 185*77*10,train
+hds_368,471,450,211950,DD,0.45,1.0,0.1,quarter_hundred,Generated: 471*450 uses quarter-hundred decomposition,test
+hds_369,111,520,57720,DD,0.45,1.0,0.1,zero_factor,Generated: 111*520 = 111*52*10,test
+hds_370,675,369,249075,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 675 = 670+5,val
+hds_371,162,300,48600,DD,0.45,1.0,0.1,hundred_factor,Generated: 162*300,val
+hds_372,853,800,682400,DD,0.45,1.0,0.1,hundred_factor,Generated: 853*800,train
+hds_373,374,800,299200,DD,0.45,1.0,0.1,hundred_factor,Generated: 374*800,test
+hds_374,566,740,418840,DD,0.55,1.0,0.1,zero_factor,Generated: 566*740 = 566*74*10,train
+hds_375,868,225,195300,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 868*225 uses quarter-hundred decomposition,val
+hds_376,891,350,311850,DD,0.45,1.0,0.1,quarter_hundred,Generated: 891*350 uses quarter-hundred decomposition,train
+hds_377,974,480,467520,DD,0.55,1.0,0.1,zero_factor,Generated: 974*480 = 974*48*10,train
+hds_378,154,460,70840,DD,0.45,1.0,0.1,zero_factor,Generated: 154*460 = 154*46*10,train
+hds_379,312,800,249600,DD,0.45,1.0,0.1,hundred_factor,Generated: 312*800,test
+hds_380,701,900,630900,DD,0.45,1.0,0.1,hundred_factor,Generated: 701*900,train
+hds_381,853,500,426500,DD,0.45,1.0,0.55,hundred_factor,Generated: 853*500,train
+hds_382,225,120,27000,DD,0.45,1.0,0.1,zero_factor,Generated: 225*120 = 225*12*10,test
+hds_383,458,890,407620,DD,0.55,1.0,0.1,zero_factor,Generated: 458*890 = 458*89*10,train
+hds_384,515,178,91670,DD,0.45,0.65,0.1,clean_decomp,Generated: 515 = 510+5,train
+hds_385,978,475,464550,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 978*475 uses quarter-hundred decomposition,train
+hds_386,196,800,156800,DD,0.45,1.0,0.1,hundred_factor,Generated: 196*800,train
+hds_387,675,580,391500,DD,0.55,1.0,0.1,zero_factor,Generated: 675*580 = 675*58*10,test
+hds_388,948,550,521400,DD,0.55,1.0,0.1,quarter_hundred,Generated: 948*550 uses quarter-hundred decomposition,train
+hds_389,533,990,527670,DD,0.55,1.0,0.1,zero_factor,Generated: 533*990 = 533*99*10,train
+hds_390,436,500,218000,DD,0.45,1.0,0.55,zero_factor,Generated: 436*500 = 436*50*10,train
+hds_391,585,975,570375,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 585*975 uses quarter-hundred decomposition,test
+hds_392,253,825,208725,DD,0.55,0.9999999999999999,0.35,quarter_hundred,Generated: 253*825 uses quarter-hundred decomposition,train
+hds_393,433,350,151550,DD,0.45,1.0,0.1,zero_factor,Generated: 433*350 = 433*35*10,train
+hds_394,551,740,407740,DD,0.45,1.0,0.1,zero_factor,Generated: 551*740 = 551*74*10,train
+hds_395,147,200,29400,DD,0.45,1.0,0.1,hundred_factor,Generated: 147*200,test
+hds_396,115,900,103500,DD,0.45,1.0,0.1,hundred_factor,Generated: 115*900,train
+hds_397,985,350,344750,DD,0.55,1.0,0.1,quarter_hundred,Generated: 985*350 uses quarter-hundred decomposition,train
+hds_398,525,143,75075,DD,0.45,0.9999999999999999,0.1,clean_decomp,Generated: 525 = 520+5,val
+hds_399,867,900,780300,DD,0.45,1.0,0.1,hundred_factor,Generated: 867*900,val
+hds_400,345,240,82800,DD,0.45,1.0,0.1,zero_factor,Generated: 345*240 = 345*24*10,test
+hds_401,573,630,360990,DD,0.55,1.0,0.1,zero_factor,Generated: 573*630 = 573*63*10,train
+hds_402,382,600,229200,DD,0.45,1.0,0.1,zero_factor,Generated: 382*600 = 382*60*10,train
+hds_403,468,425,198900,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 468*425 uses quarter-hundred decomposition,train
+hds_404,880,300,264000,DD,0.45,1.0,0.1,quarter_hundred,Generated: 880*300 uses quarter-hundred decomposition,train
+hds_405,965,200,193000,DD,0.45,1.0,0.1,hundred_factor,Generated: 965*200,train
+hds_406,718,200,143600,DD,0.45,1.0,0.1,quarter_hundred,Generated: 718*200 uses quarter-hundred decomposition,train
+hds_407,934,870,812580,DD,0.55,1.0,0.1,zero_factor,Generated: 934*870 = 934*87*10,train
+hds_408,111,925,102675,DD,0.45,0.9999999999999999,0.1,quarter_hundred,Generated: 111*925 uses quarter-hundred decomposition,train
+hds_409,338,350,118300,DD,0.45,1.0,0.1,quarter_hundred,Generated: 338*350 uses quarter-hundred decomposition,train
+hds_410,335,850,284750,DD,0.55,1.0,0.1,quarter_hundred,Generated: 335*850 uses quarter-hundred decomposition,train
+hds_411,540,800,432000,DD,0.45,1.0,0.1,hundred_factor,Generated: 540*800,train
+hds_412,719,700,503300,DD,0.45,1.0,0.1,hundred_factor,Generated: 719*700,train
+hds_413,438,100,43800,DD,0.45,1.0,0.1,hundred_factor,Generated: 438*100,test
+hds_414,649,540,350460,DD,0.55,1.0,0.1,zero_factor,Generated: 649*540 = 649*54*10,train
+hds_415,162,500,81000,DD,0.45,1.0,0.55,hundred_factor,Generated: 162*500,train
+hds_416,202,300,60600,DD,0.45,1.0,0.1,zero_factor,Generated: 202*300 = 202*30*10,train
+hds_417,426,700,298200,DD,0.45,1.0,0.1,hundred_factor,Generated: 426*700,val
+hds_418,759,725,550275,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 759*725 uses quarter-hundred decomposition,train
+hds_419,810,525,425250,DD,0.45,1.0,0.1,quarter_hundred,Generated: 810*525 uses quarter-hundred decomposition,test
+hds_420,123,800,98400,DD,0.45,1.0,0.1,quarter_hundred,Generated: 123*800 uses quarter-hundred decomposition,train
+hds_421,467,675,315225,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 467*675 uses quarter-hundred decomposition,train
+hds_422,661,400,264400,DD,0.45,1.0,0.1,hundred_factor,Generated: 661*400,train
+hds_423,730,740,540200,DD,0.45,1.0,0.1,zero_factor,Generated: 730*740 = 730*74*10,train
+hds_424,290,300,87000,DD,0.45,1.0,0.1,hundred_factor,Generated: 290*300,train
+hds_425,434,8350,3623900,DD,0.55,1.0,0.1,zero_factor,Generated: 434*8350 = 434*835*10,test
+hds_426,354,5250,1858500,DD,0.55,1.0,0.1,quarter_hundred,Generated: 354*5250 uses quarter-hundred decomposition,val
+hds_427,3795,710,2694450,DD,0.45,1.0,0.1,zero_factor,Generated: 3795*710 = 3795*71*10,test
+hds_428,5985,200,1197000,DD,0.45,1.0,0.1,quarter_hundred,Generated: 5985*200 uses quarter-hundred decomposition,val
+hds_429,4885,5800,28333000,DD,0.55,1.0,0.1,hundred_factor,Generated: 4885*5800,test
+hds_430,8855,2500,22137500,DD,0.55,1.0,0.55,zero_factor,Generated: 8855*2500 = 8855*250*10,train
+hds_431,3143,290,911470,DD,0.45,1.0,0.1,zero_factor,Generated: 3143*290 = 3143*29*10,train
+hds_432,875,2370,2073750,DD,0.55,1.0,0.1,clean_decomp,Generated: 875 = 870+5,train
+hds_433,2217,600,1330200,DD,0.45,1.0,0.1,hundred_factor,Generated: 2217*600,train
+hds_434,315,6038,1901970,DD,0.45,0.65,0.1,clean_decomp,Generated: 315 = 310+5,train
+hds_435,487,1000,487000,DD,0.45,1.0,0.55,quarter_hundred,Generated: 487*1000 uses quarter-hundred decomposition,train
+hds_436,7399,160,1183840,DD,0.45,1.0,0.1,zero_factor,Generated: 7399*160 = 7399*16*10,train
+hds_437,6110,475,2902250,DD,0.45,1.0,0.1,quarter_hundred,Generated: 6110*475 uses quarter-hundred decomposition,val
+hds_438,2130,5700,12141000,DD,0.45,1.0,0.1,hundred_factor,Generated: 2130*5700,test
+hds_439,607,2600,1578200,DD,0.45,1.0,0.1,hundred_factor,Generated: 607*2600,test
+hds_440,175,8607,1506225,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 175 = 170+5,train
+hds_441,550,6275,3451250,DD,0.55,1.0,0.1,quarter_hundred,Generated: 550*6275 uses quarter-hundred decomposition,train
+hds_442,702,7700,5405400,DD,0.45,1.0,0.1,zero_factor,Generated: 702*7700 = 702*770*10,train
+hds_443,843,8700,7334100,DD,0.55,1.0,0.1,hundred_factor,Generated: 843*8700,val
+hds_444,685,6570,4500450,DD,0.55,1.0,0.1,clean_decomp,Generated: 685 = 680+5,train
+hds_445,282,2400,676800,DD,0.45,1.0,0.1,hundred_factor,Generated: 282*2400,test
+hds_446,9390,2100,19719000,DD,0.45,1.0,0.1,hundred_factor,Generated: 9390*2100,train
+hds_447,2000,1960,3920000,DD,0.45,1.0,0.55,zero_factor,Generated: 2000*1960 = 2000*196*10,val
+hds_448,575,2973,1709475,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 575 = 570+5,test
+hds_449,9304,7025,65360600,DD,0.45,0.9999999999999999,0.1,quarter_hundred,Generated: 9304*7025 uses quarter-hundred decomposition,train
+hds_450,5824,140,815360,DD,0.45,1.0,0.1,zero_factor,Generated: 5824*140 = 5824*14*10,test
+hds_451,3904,975,3806400,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 3904*975 uses quarter-hundred decomposition,test
+hds_452,8586,375,3219750,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 8586*375 uses quarter-hundred decomposition,train
+hds_453,2329,5500,12809500,DD,0.55,1.0,0.1,quarter_hundred,Generated: 2329*5500 uses quarter-hundred decomposition,train
+hds_454,1953,140,273420,DD,0.45,1.0,0.1,zero_factor,Generated: 1953*140 = 1953*14*10,train
+hds_455,1834,150,275100,DD,0.45,1.0,0.1,quarter_hundred,Generated: 1834*150 uses quarter-hundred decomposition,train
+hds_456,770,3200,2464000,DD,0.45,1.0,0.1,hundred_factor,Generated: 770*3200,train
+hds_457,8273,1025,8479825,DD,0.45,0.9999999999999999,0.1,quarter_hundred,Generated: 8273*1025 uses quarter-hundred decomposition,val
+hds_458,7273,300,2181900,DD,0.45,1.0,0.1,hundred_factor,Generated: 7273*300,train
+hds_459,8892,5325,47349900,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 8892*5325 uses quarter-hundred decomposition,train
+hds_460,4865,131,637315,DD,0.45,0.65,0.1,clean_decomp,Generated: 4865 = 4860+5,train
+hds_461,593,9370,5556410,DD,0.55,1.0,0.1,zero_factor,Generated: 593*9370 = 593*937*10,train
+hds_462,829,8550,7087950,DD,0.55,1.0,0.1,quarter_hundred,Generated: 829*8550 uses quarter-hundred decomposition,train
+hds_463,2760,2970,8197200,DD,0.55,1.0,0.1,zero_factor,Generated: 2760*2970 = 2760*297*10,val
+hds_464,180,8300,1494000,DD,0.45,1.0,0.1,hundred_factor,Generated: 180*8300,val
+hds_465,493,8475,4178175,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 493*8475 uses quarter-hundred decomposition,val
+hds_466,338,7300,2467400,DD,0.45,1.0,0.1,hundred_factor,Generated: 338*7300,train
+hds_467,3706,475,1760350,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 3706*475 uses quarter-hundred decomposition,train
+hds_468,568,4675,2655400,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 568*4675 uses quarter-hundred decomposition,train
+hds_469,6225,598,3722550,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 6225 = 6220+5,train
+hds_470,406,7100,2882600,DD,0.45,1.0,0.1,hundred_factor,Generated: 406*7100,train
+hds_471,3524,8700,30658800,DD,0.55,1.0,0.1,hundred_factor,Generated: 3524*8700,train
+hds_472,9445,1275,12042375,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 9445 = 9440+5,train
+hds_473,634,8900,5642600,DD,0.55,1.0,0.1,hundred_factor,Generated: 634*8900,train
+hds_474,9757,5360,52297520,DD,0.55,1.0,0.1,zero_factor,Generated: 9757*5360 = 9757*536*10,train
+hds_475,6523,2100,13698300,DD,0.45,1.0,0.1,hundred_factor,Generated: 6523*2100,val
+hds_476,8416,5000,42080000,DD,0.45,1.0,0.55,hundred_factor,Generated: 8416*5000,test
+hds_477,6216,1200,7459200,DD,0.45,1.0,0.1,hundred_factor,Generated: 6216*1200,train
+hds_478,733,7500,5497500,DD,0.55,1.0,0.1,quarter_hundred,Generated: 733*7500 uses quarter-hundred decomposition,train
+hds_479,218,8750,1907500,DD,0.55,1.0,0.1,quarter_hundred,Generated: 218*8750 uses quarter-hundred decomposition,test
+hds_480,100,9900,990000,DD,0.45,1.0,0.1,hundred_factor,Generated: 100*9900,train
+hds_481,161,4100,660100,DD,0.45,1.0,0.1,hundred_factor,Generated: 161*4100,train
+hds_482,4050,9000,36450000,DD,0.45,1.0,0.1,hundred_factor,Generated: 4050*9000,train
+hds_483,1551,2950,4575450,DD,0.45,1.0,0.1,quarter_hundred,Generated: 1551*2950 uses quarter-hundred decomposition,train
+hds_484,3119,720,2245680,DD,0.45,1.0,0.1,zero_factor,Generated: 3119*720 = 3119*72*10,train
+hds_485,9718,2625,25509750,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 9718*2625 uses quarter-hundred decomposition,train
+hds_486,9218,3200,29497600,DD,0.45,1.0,0.1,quarter_hundred,Generated: 9218*3200 uses quarter-hundred decomposition,train
+hds_487,2194,1375,3016750,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 2194*1375 uses quarter-hundred decomposition,train
+hds_488,2366,1275,3016650,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 2366*1275 uses quarter-hundred decomposition,train
+hds_489,7879,4350,34273650,DD,0.55,1.0,0.1,zero_factor,Generated: 7879*4350 = 7879*435*10,test
+hds_490,104,9250,962000,DD,0.45,1.0,0.1,quarter_hundred,Generated: 104*9250 uses quarter-hundred decomposition,train
+hds_491,4842,800,3873600,DD,0.45,1.0,0.1,hundred_factor,Generated: 4842*800,val
+hds_492,8552,9700,82954400,DD,0.55,1.0,0.1,hundred_factor,Generated: 8552*9700,train
+hds_493,9437,9670,91255790,DD,0.55,1.0,0.1,zero_factor,Generated: 9437*9670 = 9437*967*10,train
+hds_494,1623,7960,12919080,DD,0.55,1.0,0.1,zero_factor,Generated: 1623*7960 = 1623*796*10,val
+hds_495,6158,600,3694800,DD,0.45,1.0,0.1,hundred_factor,Generated: 6158*600,train
+hds_496,4425,872,3858600,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 4425 = 4420+5,train
+hds_497,129,9700,1251300,DD,0.45,1.0,0.1,quarter_hundred,Generated: 129*9700 uses quarter-hundred decomposition,train
+hds_498,2441,175,427175,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 2441*175 uses quarter-hundred decomposition,test
+hds_499,2439,5300,12926700,DD,0.45,1.0,0.1,hundred_factor,Generated: 2439*5300,train
+hds_500,9275,426,3951150,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 9275 = 9270+5,train
+hds_501,1625,569,924625,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 1625 = 1620+5,train
+hds_502,7855,8880,69752400,DD,0.55,1.0,0.1,clean_decomp,Generated: 7855 = 7850+5,test
+hds_503,575,1587,912525,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 575 = 570+5,train
+hds_504,308,6650,2048200,DD,0.55,1.0,0.1,quarter_hundred,Generated: 308*6650 uses quarter-hundred decomposition,val
+hds_505,697,1300,906100,DD,0.45,1.0,0.1,zero_factor,Generated: 697*1300 = 697*130*10,train
+hds_506,3480,9850,34278000,DD,0.55,1.0,0.1,quarter_hundred,Generated: 3480*9850 uses quarter-hundred decomposition,train
+hds_507,524,6925,3628700,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 524*6925 uses quarter-hundred decomposition,test
+hds_508,2686,925,2484550,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 2686*925 uses quarter-hundred decomposition,test
+hds_509,783,4000,3132000,DD,0.45,1.0,0.1,hundred_factor,Generated: 783*4000,train
+hds_510,8958,630,5643540,DD,0.55,1.0,0.1,zero_factor,Generated: 8958*630 = 8958*63*10,test
+hds_511,204,5025,1025100,DD,0.45,0.9999999999999999,0.1,quarter_hundred,Generated: 204*5025 uses quarter-hundred decomposition,train
+hds_512,505,1820,919100,DD,0.45,1.0,0.35,clean_decomp,Generated: 505 = 500+5,train
+hds_513,309,9290,2870610,DD,0.45,1.0,0.1,zero_factor,Generated: 309*9290 = 309*929*10,train
+hds_514,6054,800,4843200,DD,0.45,1.0,0.1,quarter_hundred,Generated: 6054*800 uses quarter-hundred decomposition,train
+hds_515,6908,925,6389900,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 6908*925 uses quarter-hundred decomposition,train
+hds_516,3066,8300,25447800,DD,0.45,1.0,0.1,hundred_factor,Generated: 3066*8300,val
+hds_517,249,8820,2196180,DD,0.55,1.0,0.55,zero_factor,Generated: 249*8820 = 249*882*10,train
+hds_518,3435,610,2095350,DD,0.45,1.0,0.1,zero_factor,Generated: 3435*610 = 3435*61*10,train
+hds_519,2951,2130,6285630,DD,0.45,1.0,0.1,zero_factor,Generated: 2951*2130 = 2951*213*10,val
+hds_520,401,6600,2646600,DD,0.45,1.0,0.1,quarter_hundred,Generated: 401*6600 uses quarter-hundred decomposition,train
+hds_521,9591,6025,57785775,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 9591*6025 uses quarter-hundred decomposition,val
+hds_522,552,7400,4084800,DD,0.45,1.0,0.1,hundred_factor,Generated: 552*7400,train
+hds_523,8090,7070,57196300,DD,0.45,1.0,0.1,zero_factor,Generated: 8090*7070 = 8090*707*10,train
+hds_524,6450,5160,33282000,DD,0.45,1.0,0.1,zero_factor,Generated: 6450*5160 = 6450*516*10,train
+hds_525,417,9300,3878100,DD,0.45,1.0,0.1,hundred_factor,Generated: 417*9300,train
+hds_526,7905,6780,53595900,DD,0.55,1.0,0.1,clean_decomp,Generated: 7905 = 7900+5,test
+hds_527,2841,390,1107990,DD,0.45,1.0,0.1,zero_factor,Generated: 2841*390 = 2841*39*10,val
+hds_528,694,1225,850150,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 694*1225 uses quarter-hundred decomposition,train
+hds_529,780,3890,3034200,DD,0.55,1.0,0.1,zero_factor,Generated: 780*3890 = 780*389*10,train
+hds_530,151,2425,366175,DD,0.45,0.9999999999999999,0.1,quarter_hundred,Generated: 151*2425 uses quarter-hundred decomposition,test
+hds_531,310,5580,1729800,DD,0.45,1.0,0.1,zero_factor,Generated: 310*5580 = 310*558*10,train
+hds_532,607,3500,2124500,DD,0.45,1.0,0.1,hundred_factor,Generated: 607*3500,train
+hds_533,750,7600,5700000,DD,0.45,1.0,0.1,hundred_factor,Generated: 750*7600,val
+hds_534,1284,1025,1316100,DD,0.45,0.9999999999999999,0.1,quarter_hundred,Generated: 1284*1025 uses quarter-hundred decomposition,test
+hds_535,6802,2450,16664900,DD,0.45,1.0,0.1,quarter_hundred,Generated: 6802*2450 uses quarter-hundred decomposition,train
+hds_536,9001,500,4500500,DD,0.45,1.0,0.55,hundred_factor,Generated: 9001*500,train
+hds_537,5852,700,4096400,DD,0.45,1.0,0.1,hundred_factor,Generated: 5852*700,train
+hds_538,5528,730,4035440,DD,0.55,1.0,0.1,zero_factor,Generated: 5528*730 = 5528*73*10,val
+hds_539,558,6200,3459600,DD,0.55,1.0,0.1,hundred_factor,Generated: 558*6200,train
+hds_540,553,8500,4700500,DD,0.55,1.0,0.1,quarter_hundred,Generated: 553*8500 uses quarter-hundred decomposition,val
+hds_541,184,7490,1378160,DD,0.55,1.0,0.1,zero_factor,Generated: 184*7490 = 184*749*10,train
+hds_542,846,4700,3976200,DD,0.55,1.0,0.1,zero_factor,Generated: 846*4700 = 846*470*10,val
+hds_543,525,4717,2476425,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 525 = 520+5,train
+hds_544,285,1200,342000,DD,0.45,1.0,0.1,hundred_factor,Generated: 285*1200,val
+hds_545,9780,4775,46699500,DD,0.55,1.0,0.1,quarter_hundred,Generated: 9780*4775 uses quarter-hundred decomposition,val
+hds_546,789,5200,4102800,DD,0.55,1.0,0.1,quarter_hundred,Generated: 789*5200 uses quarter-hundred decomposition,train
+hds_547,2286,7130,16299180,DD,0.45,1.0,0.1,zero_factor,Generated: 2286*7130 = 2286*713*10,train
+hds_548,8901,940,8366940,DD,0.45,1.0,0.1,zero_factor,Generated: 8901*940 = 8901*94*10,train
+hds_549,1422,2330,3313260,DD,0.45,1.0,0.1,zero_factor,Generated: 1422*2330 = 1422*233*10,val
+hds_550,2105,231,486255,DD,0.45,0.65,0.1,clean_decomp,Generated: 2105 = 2100+5,test
+hds_551,132,6740,889680,DD,0.45,1.0,0.1,zero_factor,Generated: 132*6740 = 132*674*10,test
+hds_552,7762,360,2794320,DD,0.55,1.0,0.1,zero_factor,Generated: 7762*360 = 7762*36*10,train
+hds_553,502,1520,763040,DD,0.45,1.0,0.55,zero_factor,Generated: 502*1520 = 502*152*10,test
+hds_554,5576,7160,39924160,DD,0.55,1.0,0.1,zero_factor,Generated: 5576*7160 = 5576*716*10,train
+hds_555,2475,671,1660725,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 2475 = 2470+5,train
+hds_556,1495,5011,7491445,DD,0.45,0.65,0.1,clean_decomp,Generated: 1495 = 1490+5,test
+hds_557,2443,2450,5985350,DD,0.45,1.0,0.1,zero_factor,Generated: 2443*2450 = 2443*245*10,train
+hds_558,636,3700,2353200,DD,0.45,1.0,0.1,hundred_factor,Generated: 636*3700,train
+hds_559,255,6740,1718700,DD,0.55,1.0,0.35,clean_decomp,Generated: 255 = 250+5,val
+hds_560,671,6680,4482280,DD,0.55,1.0,0.1,zero_factor,Generated: 671*6680 = 671*668*10,train
+hds_561,5902,575,3393650,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 5902*575 uses quarter-hundred decomposition,train
+hds_562,7172,640,4590080,DD,0.45,1.0,0.1,zero_factor,Generated: 7172*640 = 7172*64*10,test
+hds_563,8003,600,4801800,DD,0.45,1.0,0.1,hundred_factor,Generated: 8003*600,train
+hds_564,8873,150,1330950,DD,0.45,1.0,0.1,quarter_hundred,Generated: 8873*150 uses quarter-hundred decomposition,train
+hds_565,4488,6875,30855000,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 4488*6875 uses quarter-hundred decomposition,train
+hds_566,604,5025,3035100,DD,0.45,0.9999999999999999,0.1,quarter_hundred,Generated: 604*5025 uses quarter-hundred decomposition,train
+hds_567,3003,700,2102100,DD,0.45,1.0,0.1,hundred_factor,Generated: 3003*700,val
+hds_568,8508,850,7231800,DD,0.55,1.0,0.1,quarter_hundred,Generated: 8508*850 uses quarter-hundred decomposition,train
+hds_569,364,7925,2884700,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 364*7925 uses quarter-hundred decomposition,train
+hds_570,4076,400,1630400,DD,0.45,1.0,0.1,hundred_factor,Generated: 4076*400,train
+hds_571,1920,220,422400,DD,0.45,1.0,0.1,zero_factor,Generated: 1920*220 = 1920*22*10,train
+hds_572,6218,1570,9762260,DD,0.45,1.0,0.1,zero_factor,Generated: 6218*1570 = 6218*157*10,train
+hds_573,338,9200,3109600,DD,0.45,1.0,0.1,hundred_factor,Generated: 338*9200,val
+hds_574,3615,810,2928150,DD,0.45,1.0,0.1,clean_decomp,Generated: 3615 = 3610+5,train
+hds_575,9593,675,6475275,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 9593*675 uses quarter-hundred decomposition,train
+hds_576,2791,800,2232800,DD,0.45,1.0,0.1,quarter_hundred,Generated: 2791*800 uses quarter-hundred decomposition,train
+hds_577,3623,750,2717250,DD,0.55,1.0,0.1,quarter_hundred,Generated: 3623*750 uses quarter-hundred decomposition,train
+hds_578,347,5000,1735000,DD,0.45,1.0,0.55,hundred_factor,Generated: 347*5000,train
+hds_579,802,7375,5914750,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 802*7375 uses quarter-hundred decomposition,train
+hds_580,4076,1600,6521600,DD,0.45,1.0,0.1,hundred_factor,Generated: 4076*1600,test
+hds_581,2004,8860,17755440,DD,0.45,1.0,0.35,zero_factor,Generated: 2004*8860 = 2004*886*10,val
+hds_582,266,6790,1806140,DD,0.55,1.0,0.1,zero_factor,Generated: 266*6790 = 266*679*10,train
+hds_583,511,9900,5058900,DD,0.45,1.0,0.1,hundred_factor,Generated: 511*9900,train
+hds_584,1365,1337,1825005,DD,0.45,0.65,0.1,clean_decomp,Generated: 1365 = 1360+5,train
+hds_585,7797,7930,61830210,DD,0.55,1.0,0.1,zero_factor,Generated: 7797*7930 = 7797*793*10,train
+hds_586,6531,2500,16327500,DD,0.45,1.0,0.55,hundred_factor,Generated: 6531*2500,val
+hds_587,506,5200,2631200,DD,0.45,1.0,0.1,quarter_hundred,Generated: 506*5200 uses quarter-hundred decomposition,train
+hds_588,881,5400,4757400,DD,0.45,1.0,0.1,hundred_factor,Generated: 881*5400,val
+hds_589,9125,9520,86870000,DD,0.55,1.0,0.1,clean_decomp,Generated: 9125 = 9120+5,train
+hds_590,3344,900,3009600,DD,0.45,1.0,0.1,quarter_hundred,Generated: 3344*900 uses quarter-hundred decomposition,train
+hds_591,7342,100,734200,DD,0.45,1.0,0.1,hundred_factor,Generated: 7342*100,train
+hds_592,2244,450,1009800,DD,0.55,1.0,0.1,quarter_hundred,Generated: 2244*450 uses quarter-hundred decomposition,val
+hds_593,7576,9800,74244800,DD,0.55,1.0,0.1,hundred_factor,Generated: 7576*9800,train
+hds_594,9444,675,6374700,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 9444*675 uses quarter-hundred decomposition,train
+hds_595,8615,875,7538125,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 8615 = 8610+5,test
+hds_596,324,2060,667440,DD,0.45,1.0,0.1,zero_factor,Generated: 324*2060 = 324*206*10,val
+hds_597,555,7280,4040400,DD,0.55,1.0,0.1,clean_decomp,Generated: 555 = 550+5,test
+hds_598,5955,7220,42995100,DD,0.55,1.0,0.1,zero_factor,Generated: 5955*7220 = 5955*722*10,train
+hds_599,8411,600,5046600,DD,0.45,1.0,0.1,hundred_factor,Generated: 8411*600,train
+hds_600,3898,250,974500,DD,0.55,1.0,0.55,zero_factor,Generated: 3898*250 = 3898*25*10,train
+hds_601,3029,630,1908270,DD,0.45,1.0,0.1,zero_factor,Generated: 3029*630 = 3029*63*10,train
+hds_602,573,4780,2738940,DD,0.55,1.0,0.1,zero_factor,Generated: 573*4780 = 573*478*10,val
+hds_603,5917,430,2544310,DD,0.55,1.0,0.1,zero_factor,Generated: 5917*430 = 5917*43*10,test
+hds_604,7992,9280,74165760,DD,0.55,1.0,0.1,zero_factor,Generated: 7992*9280 = 7992*928*10,train
+hds_605,6575,401,2636575,DD,0.45,0.9999999999999999,0.1,clean_decomp,Generated: 6575 = 6570+5,train
+hds_606,8892,4000,35568000,DD,0.45,1.0,0.1,quarter_hundred,Generated: 8892*4000 uses quarter-hundred decomposition,train
+hds_607,2059,1600,3294400,DD,0.45,1.0,0.1,hundred_factor,Generated: 2059*1600,val
+hds_608,2992,550,1645600,DD,0.55,1.0,0.1,quarter_hundred,Generated: 2992*550 uses quarter-hundred decomposition,train
+hds_609,6573,500,3286500,DD,0.45,1.0,0.55,hundred_factor,Generated: 6573*500,train
+hds_610,4704,3700,17404800,DD,0.45,1.0,0.1,zero_factor,Generated: 4704*3700 = 4704*370*10,train
+hds_611,3105,9443,29320515,DD,0.45,0.65,0.1,clean_decomp,Generated: 3105 = 3100+5,test
+hds_612,707,1150,813050,DD,0.45,1.0,0.1,zero_factor,Generated: 707*1150 = 707*115*10,train
+hds_613,843,8810,7426830,DD,0.55,1.0,0.1,zero_factor,Generated: 843*8810 = 843*881*10,train
+hds_614,8825,572,5047900,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 8825 = 8820+5,train
+hds_615,674,8900,5998600,DD,0.55,1.0,0.1,hundred_factor,Generated: 674*8900,val
+hds_616,6133,4475,27445175,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 6133*4475 uses quarter-hundred decomposition,train
+hds_617,2445,8880,21711600,DD,0.55,1.0,0.1,zero_factor,Generated: 2445*8880 = 2445*888*10,test
+hds_618,4012,480,1925760,DD,0.45,1.0,0.1,zero_factor,Generated: 4012*480 = 4012*48*10,train
+hds_619,8697,300,2609100,DD,0.45,1.0,0.1,hundred_factor,Generated: 8697*300,train
+hds_620,222,5630,1249860,DD,0.55,1.0,0.1,zero_factor,Generated: 222*5630 = 222*563*10,train
+hds_621,5904,790,4664160,DD,0.55,1.0,0.1,zero_factor,Generated: 5904*790 = 5904*79*10,train
+hds_622,9537,940,8964780,DD,0.55,1.0,0.1,zero_factor,Generated: 9537*940 = 9537*94*10,train
+hds_623,2478,900,2230200,DD,0.45,1.0,0.1,quarter_hundred,Generated: 2478*900 uses quarter-hundred decomposition,train
+hds_624,6605,8111,53573155,DD,0.45,0.65,0.1,clean_decomp,Generated: 6605 = 6600+5,train
+hds_625,7782,700,5447400,DD,0.45,1.0,0.1,zero_factor,Generated: 7782*700 = 7782*70*10,train
+hds_626,888,9740,8649120,DD,0.55,1.0,0.1,zero_factor,Generated: 888*9740 = 888*974*10,val
+hds_627,7504,100,750400,DD,0.45,1.0,0.1,hundred_factor,Generated: 7504*100,train
+hds_628,1114,120,133680,DD,0.45,1.0,0.1,zero_factor,Generated: 1114*120 = 1114*12*10,train
+hds_629,9055,7050,63837750,DD,0.45,1.0,0.1,clean_decomp,Generated: 9055 = 9050+5,val
+hds_630,602,9200,5538400,DD,0.45,1.0,0.1,zero_factor,Generated: 602*9200 = 602*920*10,train
+hds_631,3128,670,2095760,DD,0.55,1.0,0.1,zero_factor,Generated: 3128*670 = 3128*67*10,test
+hds_632,788,3300,2600400,DD,0.55,1.0,0.1,quarter_hundred,Generated: 788*3300 uses quarter-hundred decomposition,test
+hds_633,8275,3574,29574850,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 8275 = 8270+5,train
+hds_634,8445,475,4011375,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 8445*475 uses quarter-hundred decomposition,val
+hds_635,9021,7500,67657500,DD,0.45,1.0,0.1,hundred_factor,Generated: 9021*7500,test
+hds_636,1905,319,607695,DD,0.45,0.65,0.1,clean_decomp,Generated: 1905 = 1900+5,train
+hds_637,1454,800,1163200,DD,0.45,1.0,0.1,zero_factor,Generated: 1454*800 = 1454*80*10,train
+hds_638,4425,403,1783275,DD,0.55,0.9999999999999999,0.1,clean_decomp,Generated: 4425 = 4420+5,train
+hds_639,4529,850,3849650,DD,0.55,1.0,0.1,quarter_hundred,Generated: 4529*850 uses quarter-hundred decomposition,val
+hds_640,2470,9500,23465000,DD,0.45,1.0,0.1,hundred_factor,Generated: 2470*9500,test
+hds_641,5618,900,5056200,DD,0.45,1.0,0.1,hundred_factor,Generated: 5618*900,train
+hds_642,222,4525,1004550,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 222*4525 uses quarter-hundred decomposition,test
+hds_643,604,5730,3460920,DD,0.55,1.0,0.1,zero_factor,Generated: 604*5730 = 604*573*10,val
+hds_644,5091,9100,46328100,DD,0.45,1.0,0.1,hundred_factor,Generated: 5091*9100,train
+hds_645,191,1950,372450,DD,0.45,1.0,0.1,zero_factor,Generated: 191*1950 = 191*195*10,train
+hds_646,4033,1230,4960590,DD,0.45,1.0,0.1,zero_factor,Generated: 4033*1230 = 4033*123*10,train
+hds_647,742,6200,4600400,DD,0.45,1.0,0.1,quarter_hundred,Generated: 742*6200 uses quarter-hundred decomposition,train
+hds_648,319,2000,638000,DD,0.45,1.0,0.55,hundred_factor,Generated: 319*2000,val
+hds_649,2597,500,1298500,DD,0.45,1.0,0.55,hundred_factor,Generated: 2597*500,train
+hds_650,3398,950,3228100,DD,0.55,1.0,0.1,quarter_hundred,Generated: 3398*950 uses quarter-hundred decomposition,train
+hds_651,752,6200,4662400,DD,0.45,1.0,0.1,hundred_factor,Generated: 752*6200,train
+hds_652,8493,2910,24714630,DD,0.45,1.0,0.1,zero_factor,Generated: 8493*2910 = 8493*291*10,train
+hds_653,1166,700,816200,DD,0.45,1.0,0.1,quarter_hundred,Generated: 1166*700 uses quarter-hundred decomposition,val
+hds_654,669,4200,2809800,DD,0.55,1.0,0.1,zero_factor,Generated: 669*4200 = 669*420*10,train
+hds_655,335,2006,672010,DD,0.45,0.65,0.1,clean_decomp,Generated: 335 = 330+5,train
+hds_656,3178,380,1207640,DD,0.45,1.0,0.1,zero_factor,Generated: 3178*380 = 3178*38*10,test
+hds_657,6394,6180,39514920,DD,0.55,1.0,0.1,zero_factor,Generated: 6394*6180 = 6394*618*10,train
+hds_658,405,1325,536625,DD,0.45,0.9999999999999999,0.1,quarter_hundred,Generated: 405*1325 uses quarter-hundred decomposition,train
+hds_659,481,4475,2152475,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 481*4475 uses quarter-hundred decomposition,train
+hds_660,6181,225,1390725,DD,0.55,0.9999999999999999,0.1,quarter_hundred,Generated: 6181*225 uses quarter-hundred decomposition,train
+hds_661,376,4950,1861200,DD,0.55,1.0,0.1,quarter_hundred,Generated: 376*4950 uses quarter-hundred decomposition,train
+hds_662,1415,131,185365,DD,0.45,0.65,0.1,clean_decomp,Generated: 1415 = 1410+5,train
+hds_663,570,1430,815100,DD,0.45,1.0,0.1,zero_factor,Generated: 570*1430 = 570*143*10,train
+hds_664,757,8500,6434500,DD,0.55,1.0,0.1,hundred_factor,Generated: 757*8500,train
+hds_665,434,3000,1302000,DD,0.45,1.0,0.1,hundred_factor,Generated: 434*3000,train
+hds_666,4018,9060,36403080,DD,0.45,1.0,0.1,zero_factor,Generated: 4018*9060 = 4018*906*10,val
+hds_667,976,888,866688,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_668,786,968,760848,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_669,658,872,573776,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_670,219,682,149358,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_671,797,976,777872,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_672,788,687,541356,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_673,687,868,596316,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_674,522,881,459882,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_675,116,948,109968,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_676,987,676,667212,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_677,866,688,595808,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_678,888,604,536352,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_679,987,878,866586,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_680,849,946,803154,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_681,769,779,599051,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_682,779,988,769652,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_683,996,776,772896,OT,0.8,0.3,0.35,carry_heavy,Generated: multiple carries expected,train
+hds_684,314,662,207868,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_685,896,788,706048,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_686,769,696,535224,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_687,797,887,706939,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_688,776,999,775224,OT,0.7,0.3,0.55,carry_heavy,Generated: multiple carries expected,test
+hds_689,787,666,524142,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_690,344,571,196424,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_691,678,686,465108,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_692,886,899,796514,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_693,896,677,606592,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_694,457,772,352804,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_695,999,799,798201,OT,0.7,0.3,0.55,carry_heavy,Generated: multiple carries expected,train
+hds_696,667,778,518926,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_697,788,798,628824,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_698,678,668,452904,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_699,689,966,665574,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_700,688,867,596496,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_701,626,592,370592,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_702,777,978,759906,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_703,979,876,857604,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_704,999,877,876123,OT,0.7,0.3,0.55,carry_heavy,Generated: multiple carries expected,train
+hds_705,999,687,686313,OT,0.7,0.3,0.55,carry_heavy,Generated: multiple carries expected,test
+hds_706,778,979,761662,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_707,849,476,404124,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_708,889,689,612521,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_709,232,802,186064,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_710,463,231,106953,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_711,968,979,947672,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_712,668,869,580492,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_713,679,898,609742,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_714,977,968,945736,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_715,651,994,647094,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_716,531,276,146556,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_717,434,567,246078,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_718,686,699,479514,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_719,459,687,315333,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_720,988,668,659984,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_721,868,969,841092,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_722,958,996,954168,OT,0.8,0.3,0.35,generic,Generated: no special pattern,train
+hds_723,879,798,701442,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_724,671,831,557601,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_725,889,898,798322,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_726,978,686,670908,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_727,788,787,620156,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_728,798,317,252966,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_729,968,769,744392,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_730,907,206,186842,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_731,987,876,864612,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_732,988,799,789412,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_733,714,114,81396,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_734,679,676,459004,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_735,898,997,895306,OT,0.8,0.3,0.35,carry_heavy,Generated: multiple carries expected,train
+hds_736,977,766,748382,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_737,868,966,838488,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_738,789,699,551511,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_739,492,348,171216,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_740,789,969,764541,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_741,976,699,682224,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_742,869,897,779493,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_743,768,797,612096,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_744,688,899,618512,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_745,887,788,698956,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_746,789,966,762174,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_747,787,967,761029,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_748,986,768,757248,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_749,899,677,608623,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_750,887,686,608482,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_751,669,867,580023,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_752,996,866,862536,OT,0.8,0.3,0.35,carry_heavy,Generated: multiple carries expected,train
+hds_753,788,769,605972,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_754,786,979,769494,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_755,143,683,97669,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_756,8799,977,8596623,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_757,9131,7191,65661021,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_758,688,2301,1583088,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_759,6966,6696,46644336,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_760,687,9796,6729852,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_761,8886,6767,60131562,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_762,6896,897,6185712,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_763,7592,864,6559488,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_764,8676,899,7799724,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_765,9487,236,2238932,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_766,7788,996,7756848,OT,0.8,0.3,0.35,carry_heavy,Generated: multiple carries expected,test
+hds_767,898,7978,7164244,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_768,7178,987,7084686,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_769,777,6976,5420352,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_770,5468,6337,34650716,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_771,9624,187,1799688,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_772,8997,786,7071642,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_773,738,1241,915858,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_774,7667,6997,53645999,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_775,8986,989,8887154,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_776,8986,978,8788308,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_777,9141,3913,35768733,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_778,9769,6776,66194744,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_779,8462,951,8047362,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_780,6521,621,4049541,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_781,9687,686,6645282,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_782,6777,778,5272506,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_783,1597,6147,9816759,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_784,6976,796,5552896,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_785,7482,447,3344454,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_786,6999,8779,61444221,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_787,9989,7769,77604541,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_788,6999,9998,69976002,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_789,7646,9516,72759336,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_790,8798,7788,68518824,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_791,9666,667,6447222,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_792,119,6338,754222,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_793,876,6799,5955924,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_794,6436,9607,61830652,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_795,8796,7686,67606056,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_796,688,6777,4662576,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_797,767,7696,5902832,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_798,7878,787,6199986,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_799,9869,687,6780003,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_800,966,6796,6564936,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_801,8998,888,7990224,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_802,7989,8969,71653341,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_803,6396,4393,28097628,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_804,6678,886,5916708,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_805,997,6977,6956069,OT,0.8,0.3,0.35,carry_heavy,Generated: multiple carries expected,train
+hds_806,987,8969,8852403,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_807,794,4156,3299864,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_808,686,9769,6701534,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_809,8886,9987,88744482,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_810,7686,7867,60465762,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_811,9987,7688,76780056,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_812,896,9976,8938496,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_813,636,8216,5225376,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_814,6353,287,1823311,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_815,803,8676,6966828,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_816,888,9979,8861352,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_817,9194,4318,39699692,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_818,8897,7978,70980266,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_819,7582,3031,22981042,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_820,6768,9877,66847536,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_821,8669,8687,75307603,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_822,832,3949,3285568,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_823,868,7696,6680128,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_824,699,6876,4806324,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_825,5488,8154,44749152,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_826,6614,9458,62555212,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_827,6868,878,6030104,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_828,2911,3894,11335434,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_829,8997,876,7881372,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_830,8876,867,7695492,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_831,6766,9868,66766888,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_832,887,9766,8662442,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_833,6897,988,6814236,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_834,7667,7866,60308622,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_835,967,8989,8692363,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_836,7878,867,6830226,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_837,9688,996,9649248,OT,0.8,0.3,0.35,carry_heavy,Generated: multiple carries expected,train
+hds_838,3853,453,1745409,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_839,888,7689,6827832,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_840,777,9968,7745136,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_841,8689,989,8593421,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_842,8869,6987,61967703,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_843,6789,668,4535052,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_844,868,9689,8410052,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_845,6767,676,4574492,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_846,967,7698,7443966,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_847,7966,798,6356868,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_848,7779,8968,69762072,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_849,696,9697,6749112,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_850,9774,5782,56513268,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_851,897,6767,6069999,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_852,563,5441,3063283,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_853,8676,8787,76236012,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_854,9779,9767,95511493,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_855,698,9768,6818064,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_856,6084,2983,18148572,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_857,536,2048,1097728,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_858,6679,7767,51875793,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_859,777,8978,6975906,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_860,317,6281,1991077,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_861,2159,3628,7832852,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_862,8769,786,6892434,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_863,9866,7866,77605956,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_864,5917,626,3704042,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_865,9877,788,7783076,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_866,773,3169,2449637,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_867,1261,9513,11995893,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_868,1218,8442,10282356,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_869,1112,8513,9466456,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_870,868,7766,6740888,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_871,8769,8979,78736851,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_872,8968,788,7066784,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_873,7879,8666,68279414,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_874,229,6021,1378809,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_875,8687,866,7522942,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_876,678,6769,4589382,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_877,5253,7766,40794798,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_878,9986,8669,86568634,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_879,4452,691,3076332,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_880,7987,7677,61316199,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_881,259,8388,2172492,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_882,866,9687,8388942,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_883,9668,9789,94640052,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_884,998,8978,8960044,OT,0.7,0.3,0.55,carry_heavy,Generated: multiple carries expected,train
+hds_885,2147,787,1689689,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_886,776,6796,5273696,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_887,239,5868,1402452,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_888,6769,999,6762231,OT,0.7,0.3,0.55,carry_heavy,Generated: multiple carries expected,train
+hds_889,2754,459,1264086,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_890,1308,1048,1370784,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_891,9426,116,1093416,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_892,8979,9877,88685583,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_893,6869,401,2754469,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_894,9082,1616,14676512,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_895,4938,4822,23811036,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_896,6988,9996,69852048,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_897,5556,6021,33452676,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_898,4713,3376,15911088,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_899,1688,594,1002672,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_900,4261,514,2190154,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_901,8666,877,7600082,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_902,7399,4654,34434946,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_903,7971,8593,68494803,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_904,876,8666,7591416,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_905,6777,7969,54005913,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_906,236,4403,1039108,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_907,7869,797,6271593,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_908,137,1177,161249,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_909,3906,4702,18366012,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_910,2346,408,957168,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_911,8996,8766,78858936,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_912,6809,6366,43346094,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_913,978,7678,7509084,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_914,1703,1567,2668601,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_915,6976,6778,47283328,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_916,877,6779,5945183,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_917,9644,691,6664004,OT,0.8,0.3,0.1,generic,Generated: no special pattern,test
+hds_918,7766,6886,53476676,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_919,1541,1879,2895539,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_920,686,8669,5946934,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_921,6889,796,5483644,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_922,6786,979,6643494,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_923,797,9778,7793066,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_924,7977,678,5408406,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_925,9977,8779,87588083,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_926,776,9766,7578416,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_927,2086,1897,3957142,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_928,5598,3416,19122768,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_929,474,9643,4570782,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_930,9636,456,4394016,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_931,679,8966,6087914,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_932,238,8544,2033472,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_933,9897,6787,67170939,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_934,9686,7879,76315994,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_935,687,6666,4579542,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_936,956,6822,6521832,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_937,9879,7989,78923331,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_938,988,6446,6368648,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_939,7868,787,6192116,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_940,6676,8877,59262852,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_941,767,9667,7414589,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_942,6976,8677,60530752,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_943,648,1089,705672,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_944,9174,6742,61851108,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_945,6689,978,6541842,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_946,9316,8356,77844496,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_947,2203,834,1837302,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_948,6364,431,2742884,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_949,766,9689,7421774,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_950,9897,6889,68180433,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_951,8789,6866,60345274,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_952,796,6998,5570408,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_953,3787,322,1219414,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_954,868,7676,6662768,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_955,7876,7676,60456176,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_956,7699,8898,68505702,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_957,329,9509,3128461,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_958,7868,987,7765716,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_959,9688,997,9658936,OT,0.8,0.3,0.35,carry_heavy,Generated: multiple carries expected,train
+hds_960,7878,6669,52538382,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_961,896,2384,2136064,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_962,303,2896,877488,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_963,899,8868,7972332,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_964,2147,702,1507194,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_965,6989,9697,67772333,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_966,6652,4412,29348624,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_967,8696,7986,69446256,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_968,8677,6969,60470013,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_969,8986,969,8707434,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,val
+hds_970,777,6777,5265729,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_971,866,8797,7618202,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_972,796,4976,3960896,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_973,6789,878,5960742,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_974,9898,7797,77174706,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_975,878,6678,5863284,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_976,802,1684,1350568,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_977,1667,1499,2498833,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_978,1254,744,932976,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_979,1098,433,475434,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_980,7878,968,7625904,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_981,6676,9678,64610328,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_982,689,9669,6661941,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_983,1808,3877,7009616,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_984,7473,149,1113477,OT,0.8,0.3,0.1,generic,Generated: no special pattern,val
+hds_985,879,8986,7898694,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_986,796,9976,7940896,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_987,1081,829,896149,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_988,688,7876,5418688,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_989,9689,986,9553354,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_990,6968,978,6814704,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_991,366,4629,1694214,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_992,8777,8967,78703359,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_993,101,3951,399051,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_994,6812,104,708448,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_995,6986,6997,48881042,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,train
+hds_996,696,8697,6053112,OT,0.8,0.3,0.1,carry_heavy,Generated: multiple carries expected,test
+hds_997,2428,4121,10005788,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_998,364,1191,433524,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train
+hds_999,208,3042,632736,OT,0.8,0.3,0.1,generic,Generated: no special pattern,train

@@ -1,0 +1,31 @@
+id,a,b,product,trap_type,design_family,canonical_target_heuristic,heuristic_definition_version,target_heuristic,expected_error_type,notes,digit_total,nonzero_total,complexity_c
+trap_000,99,99,9801,carry_bomb,OT,OT,cost_model_v2,OT,off_by_power_of_10,Low-band dense carry chain,4,4,16
+trap_001,989,979,968231,carry_bomb,OT,OT,cost_model_v2,OT,off_by_power_of_10,Three-digit carry cascade,6,6,36
+trap_002,8999,7888,70984112,carry_bomb,OT,OT,cost_model_v2,OT,off_by_power_of_10,Four-digit repeated carry pattern,8,8,64
+trap_003,98999,97888,9690814112,carry_bomb,OT,OT,cost_model_v2,OT,off_by_power_of_10,Five-digit dense carries,10,10,100
+trap_004,899999,788888,709998411112,carry_bomb,OT,OT,cost_model_v2,OT,off_by_power_of_10,Six-digit carry-heavy mix,12,12,144
+trap_005,9899999,9788888,96909981411112,carry_bomb,OT,OT,cost_model_v2,OT,off_by_power_of_10,Seven-digit carry cascade,14,14,196
+trap_006,89999999,78888888,7099999841111112,carry_bomb,OT,OT,cost_model_v2,OT,off_by_power_of_10,Eight-digit dense carries,16,16,256
+trap_007,989999999,878888888,870099998241111112,carry_bomb,OT,OT,cost_model_v2,OT,off_by_power_of_10,Nine-digit maximal carry pressure,18,18,324
+trap_008,67,43,2881,missing_term,DD,DD,cost_model_v2,DD,off_by_partial_product,Low-band four-term expansion,4,4,16
+trap_009,876,543,475668,missing_term,DD,DD,cost_model_v2,DD,off_by_partial_product,Three-digit expansion with similar partial products,6,6,36
+trap_010,7654,4321,33072934,missing_term,DD,DD,cost_model_v2,DD,off_by_partial_product,Four-digit four-term decomposition,8,8,64
+trap_011,87654,54321,4761452934,missing_term,DD,DD,cost_model_v2,DD,off_by_partial_product,Five-digit dropped-term risk,10,10,100
+trap_012,765432,432167,330794451144,missing_term,DD,DD,cost_model_v2,DD,off_by_partial_product,Six-digit multi-term expansion,12,12,144
+trap_013,8765432,5432167,47615290451144,missing_term,DD,DD,cost_model_v2,DD,off_by_partial_product,Seven-digit similar cross-terms,14,14,196
+trap_014,76543218,43216754,3307949422674372,missing_term,DD,DD,cost_model_v2,DD,off_by_partial_product,Eight-digit dropped-term temptation,16,16,256
+trap_015,876543219,543216789,476152992844903791,missing_term,DD,DD,cost_model_v2,DD,off_by_partial_product,Nine-digit full expansion trap,18,18,324
+trap_016,43,32,1376,anti_round,RC,RC,cost_model_v2,RC,inefficient_or_wrong_base,Low-band awkward pair,4,4,16
+trap_017,764,583,445412,anti_round,RC,RC,cost_model_v2,RC,inefficient_or_wrong_base,Three-digit no-base control,6,6,36
+trap_018,4876,6132,29899632,anti_round,RC,RC,cost_model_v2,RC,inefficient_or_wrong_base,Four-digit anti-round pair,8,8,64
+trap_019,76438,58321,4457940598,anti_round,RC,RC,cost_model_v2,RC,inefficient_or_wrong_base,Five-digit awkward compensation,10,10,100
+trap_020,487631,613247,299038247857,anti_round,RC,RC,cost_model_v2,RC,inefficient_or_wrong_base,Six-digit far-from-base mix,12,12,144
+trap_021,7643821,5832167,44580040590107,anti_round,RC,RC,cost_model_v2,RC,inefficient_or_wrong_base,Seven-digit anti-round control,14,14,196
+trap_022,48763124,61324789,2990388290280836,anti_round,RC,RC,cost_model_v2,RC,inefficient_or_wrong_base,Eight-digit no-clean-base pair,16,16,256
+trap_023,764382159,583216497,445800285141277023,anti_round,RC,RC,cost_model_v2,RC,inefficient_or_wrong_base,Nine-digit anti-round extreme,18,18,324
+trap_024,49,52,2548,sign_trap,RC,RC,cost_model_v2,RC,wrong_compensation_sign,Low-band opposite-sign compensation,4,4,16
+trap_025,101,98,9898,sign_trap,RC,RC,cost_model_v2,RC,wrong_compensation_sign,Near 100 with opposite offsets,5,4,20
+trap_026,1001,998,998998,sign_trap,RC,RC,cost_model_v2,RC,wrong_compensation_sign,Four-digit sign compensation,7,5,35
+trap_027,10001,9998,99989998,sign_trap,RC,RC,cost_model_v2,RC,wrong_compensation_sign,Five-digit asymmetric near-base,9,6,54
+trap_028,1000001,999998,999998999998,sign_trap,RC,RC,cost_model_v2,RC,wrong_compensation_sign,Seven-digit compensation sign trap,13,8,104
+trap_029,109999999,89000001,9790000020999999,sign_trap,RC,RC,cost_model_v2,RC,wrong_compensation_sign,Nine-digit high-complexity sign compensation,17,11,187

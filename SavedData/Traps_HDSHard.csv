@@ -1,0 +1,31 @@
+id,a,b,product,trap_type,target_heuristic,expected_error_type,notes,digit_total,nonzero_total,complexity_c
+trap_000,79879,87977,7027514783,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits,10,10,100
+trap_001,99999,99998,9999700002,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits,10,10,100
+trap_002,87879,7789,684489531,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits,9,9,81
+trap_003,88879,8979,798044541,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits,9,9,81
+trap_004,9799,99988,979782412,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits,9,9,81
+trap_005,88788,79999,7102951212,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits,10,10,100
+trap_006,79789,77999,6223462211,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits,10,10,100
+trap_007,89888,8799,790924512,carry_bomb,OT,off_by_power_of_10,Generated: carry-heavy digits,9,9,81
+trap_008,87334,7797,680943198,missing_term,DD,off_by_partial_product,Generated: multi-term expansion,9,9,81
+trap_009,10143,99281,1007007183,missing_term,DD,off_by_partial_product,Generated: multi-term expansion,10,9,90
+trap_010,4695,18108,85017060,missing_term,DD,off_by_partial_product,Generated: multi-term expansion,9,8,72
+trap_011,7067,84732,598801044,missing_term,DD,off_by_partial_product,Generated: multi-term expansion,9,8,72
+trap_012,68995,78983,5449432085,missing_term,DD,off_by_partial_product,Generated: multi-term expansion,10,10,100
+trap_013,16969,7624,129371656,missing_term,DD,off_by_partial_product,Generated: multi-term expansion,9,9,81
+trap_014,59524,1712,101905088,missing_term,DD,off_by_partial_product,Generated: multi-term expansion,9,9,81
+trap_015,2339,82585,193166315,missing_term,DD,off_by_partial_product,Generated: multi-term expansion,9,9,81
+trap_016,96507,80349,7754240943,anti_round,RC,inefficient_or_wrong_base,Generated: far from base,10,8,80
+trap_017,41813,20792,869375896,anti_round,RC,inefficient_or_wrong_base,Generated: far from base,10,9,90
+trap_018,95761,50743,4859200423,anti_round,RC,inefficient_or_wrong_base,Generated: far from base,10,9,90
+trap_019,3389,91739,310903471,anti_round,RC,inefficient_or_wrong_base,Generated: far from base,9,9,81
+trap_020,85544,5341,456890504,anti_round,RC,inefficient_or_wrong_base,Generated: far from base,9,9,81
+trap_021,16399,90472,1483650328,anti_round,RC,inefficient_or_wrong_base,Generated: far from base,10,9,90
+trap_022,64086,34928,2238395808,anti_round,RC,inefficient_or_wrong_base,Generated: far from base,10,9,90
+trap_023,57976,1712,99254912,anti_round,RC,inefficient_or_wrong_base,Generated: far from base,9,9,81
+trap_024,25003,24994,624924982,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base,10,8,80
+trap_025,25010,24995,625124950,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base,10,8,80
+trap_026,25009,24993,625049937,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base,10,8,80
+trap_027,25003,24995,624949985,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base,10,8,80
+trap_028,25007,24991,624949937,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base,10,8,80
+trap_029,25001,24994,624874994,sign_trap,RC,wrong_compensation_sign,Generated: asymmetric near-base,10,8,80

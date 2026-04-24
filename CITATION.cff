@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying paper."
+title: "llm-multimodal-math"
+license: "GPL-3.0-only"
+authors:
+  - family-names: "Balter"
+    given-names: "Samuel Gideon"
+  - family-names: "Jerzak"
+    given-names: "Ethan"
+  - family-names: "Jerzak"
+    given-names: "Connor Thomas"
+preferred-citation:
+  type: article
+  title: "Multiplication in Multimodal LLMs: Computation with Text, Image, and Audio Inputs"
+  authors:
+    - family-names: "Balter"
+      given-names: "Samuel Gideon"
+    - family-names: "Jerzak"
+      given-names: "Ethan"
+    - family-names: "Jerzak"
+      given-names: "Connor Thomas"
+  journal: "Findings of the Association for Computational Linguistics: ACL 2026"
+  year: 2026
+  url: "https://arxiv.org/abs/2604.18203"
