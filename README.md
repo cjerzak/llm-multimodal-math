@@ -3,8 +3,7 @@
 This repository accompanies the paper
 [*Multiplication in Multimodal LLMs: Computation with Text, Image, and Audio Inputs*](https://arxiv.org/abs/2604.18203),
 to appear in *Findings of the Association for Computational Linguistics: ACL 2026*.
-It contains the benchmark generators, experiment code, analysis scripts, and
-LaTeX source used for the paper.
+It contains the benchmark generators, experiment code, and analysis scripts.
 
 ## Links
 
