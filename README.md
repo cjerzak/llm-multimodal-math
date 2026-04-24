@@ -92,8 +92,7 @@ The full experiment phase requires `TINKER_API_KEY`.
 
 ## Data Availability
 
-Small benchmark CSVs are kept in `SavedData/` for reproducibility. The
-associated Hugging Face dataset repository is the public home for the paper's
+The associated Hugging Face dataset repository is the public home for the paper's
 benchmark release:
 
 - https://huggingface.co/datasets/cjerzak/MultimodalMathBenchmarks
