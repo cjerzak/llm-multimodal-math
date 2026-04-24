@@ -26,7 +26,7 @@ The repository includes:
 - analysis code that writes figures and LaTeX macros, and
 - the paper source in `PaperTexFolder/`.
 
-The public repository is intended to stay lightweight. Large generated media
+Large generated media
 artifacts, local caches, logs, and model outputs are not part of the release
 repository. Use the associated Hugging Face dataset repository for the paper's
 dataset home, or regenerate assets locally from the checked-in scripts.
@@ -98,20 +98,6 @@ associated Hugging Face dataset repository is the public home for the paper's
 benchmark release:
 
 - https://huggingface.co/datasets/cjerzak/MultimodalMathBenchmarks
-
-## Paper Source
-
-The paper source is in `PaperTexFolder/`.
-
-To rebuild the paper locally:
-
-```bash
-cd PaperTexFolder
-pdflatex ms.tex
-bibtex ms
-pdflatex ms.tex
-pdflatex ms.tex
-```
 
 ## Citation
 
