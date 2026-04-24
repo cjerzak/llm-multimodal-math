@@ -1,0 +1,30 @@
+\begin{table*}[t]
+\centering
+\caption{Linear probability model coefficients predicting probability of a correct answer from input features for numeric-text prompts. Standard errors are in parentheses; * indicates $p<0.05$.}
+\label{tab:regression-text}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+ & google-gemini-2.5-flash & qwen-qwen3-vl-235b-a22b-instruct & qwen-qwen3-vl-30b-a3b-instruct \\
+%Feature &  &  &  \\
+\midrule
+\textit{Intercept} & 1.431*
+(0.067) & 0.649*
+(0.067) & 1.420*
+(0.066) \\
+\textit{Total digits} & -0.001
+(0.008) & 0.087*
+(0.008) & -0.005
+(0.008) \\
+\textit{Total non-zero digits} & -0.170*
+(0.017) & 0.107*
+(0.018) & -0.154*
+(0.017) \\
+\textit{Digit complexity} & 0.002
+(0.002) & -0.025*
+(0.002) & 0.001
+(0.002) \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}
